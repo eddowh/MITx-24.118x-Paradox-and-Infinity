@@ -75,8 +75,30 @@ img {
 <li><a href="#exercise">Exercise</a></li>
 </ul></li>
 </ul></li>
-<li><a href="#maximizing-expected-value">Maximizing Expected Value</a></li>
-<li><a href="#in-defense-of-two-boxing">In Defense of Two-Boxing</a></li>
+<li><a href="#maximizing-expected-value">Maximizing Expected Value</a><ul>
+<li><a href="#an-example">An Example</a></li>
+<li><a href="#exercises">Exercises</a></li>
+<li><a href="#video-review-an-expected-value-calculation"><a href="https://www.youtube.com/watch?v=6MbvOpOhu_k">VIDEO REVIEW: An Expected Value Calculation</a></a></li>
+<li><a href="#the-general-case">The General Case</a></li>
+<li><a href="#back-to-newcomb">Back to Newcomb</a><ul>
+<li><a href="#video-review-calculating-ev-in-the-newcomb-problem"><a href="https://www.youtube.com/watch?v=7Q3zb-5MHfc">VIDEO REVIEW: Calculating EV in the Newcomb Problem</a></a></li>
+<li><a href="#exercises-1">Exercises</a></li>
+</ul></li>
+</ul></li>
+<li><a href="#in-defense-of-two-boxing">3. In Defense of Two-Boxing</a><ul>
+<li><a href="#in-defense-of-two-boxing-1">In Defense of Two-Boxing</a><ul>
+<li><a href="#mathematosis">Mathematosis</a></li>
+<li><a href="#dependence-causal-and-probabilistic">Dependence, Causal and Probabilistic</a></li>
+<li><a href="#exercises-2">Exercises</a></li>
+</ul></li>
+<li><a href="#questions">QUESTIONS</a><ul>
+<li><a href="#what-if-the-predictor-is-100-accurate"><a href="https://www.youtube.com/watch?v=NS2LgxAgboM">What If the Predictor is 100% Accurate?</a></a></li>
+<li><a href="#maybe-we-should-one-box-because-of-backwards-causation"><a href="https://www.youtube.com/watch?v=tNuwBtfmgcE">Maybe We Should One-Box Because of Backwards Causation?</a></a></li>
+</ul></li>
+<li><a href="#temptation">Temptation</a><ul>
+<li><a href="#video-review-why-arent-you-rich-too"><a href="https://www.youtube.com/watch?v=1037OU-qvjY">VIDEO REVIEW: Why Aren’t You Rich Too?</a></a></li>
+</ul></li>
+</ul></li>
 <li><a href="#the-tickle-defense">4. The Tickle Defense</a></li>
 <li><a href="#casual-decision-theory">5. Casual Decision Theory</a></li>
 <li><a href="#the-prisoners-dilemma">6. The Prisoner’s Dilemma</a></li>
@@ -93,14 +115,8 @@ img {
 <p>Imagine that you are led into a room, and presented with two boxes: a large one and a small one. You know that the small box contains a thousand dollars. You’re not sure what the large one contains, but you know that it either contains a million dollars or is completely empty.</p>
 <p>You are offered two choices:</p>
 <ul>
-<li>One-Box
-<ul>
-<li>Keep the contents of the large box, but leave the contents of the small box behind.</li>
-</ul></li>
-<li>Two-Box
-<ul>
-<li>Keep the contents of both boxes.</li>
-</ul></li>
+<li><p>One-Box<br />Keep the contents of the large box, but leave the contents of the small box behind.</p></li>
+<li><p>Two-Box<br />Keep the contents of both boxes.</p></li>
 </ul>
 <p>How should you proceed? Should you one-box or should you two-box?</p>
 <p>The answer seems totally obvious. You should take both boxes!</p>
@@ -151,11 +167,239 @@ img {
 </div>
 <div id="maximizing-expected-value" class="section level1">
 <h1>Maximizing Expected Value</h1>
+<p>In the previous section I tried to give you an intuitive sense of why the Newcomb scenario might seem puzzling. Now I will give you some mathematical machinery that will help make the puzzle a little more precise.</p>
+<p>Suppose that you have a choice between different possible actions. According to standard decision theory, you should adhere to the following principle:</p>
+<ul>
+<li><strong>Principle of Expected Value Maximization </strong><br />Select the action with the highest expected value.</li>
+</ul>
+<p>What is expected value? It is a measure of how desirable the world is expected to be, on the assumption that the action is performed. (More precisely: the expected value of an action is the weighted average of the value of the possible outcomes of that action, with weights given by the probability of the outcome given the action.)</p>
+<p>Don’t worry… we’ll talk more about expected value below!</p>
+<div id="an-example" class="section level3">
+<h3>An Example</h3>
+<p>Suppose a coin will be tossed. You know that the coin is fair. (You know, in other words, that it has a <span class="math">\(0.5\)</span> chance of landing Heads and a <span class="math">\(0.5\)</span> chance of landing Tails.) You are offered a choice between the following two bets:</p>
+<ul>
+<li><p><strong>Bet 1</strong> (<span class="math">\(B_1\)</span>)<br />You get $1000 if the coin lands Heads, and are forced to pay $200 if the coin lands Tails.</p></li>
+<li><p><strong>Bet 2</strong> (<span class="math">\(B_2\)</span>)<br />You get $100 if the coin lands Heads, and get $50 if the coin lands Tails.</p></li>
+</ul>
+<p>To keep things simple, I will assume that you value only money. (More precisely: I will assume that the degree to which you value a given outcome corresponds to the amount of money you end up with. So, for example, you value an outcome in which you end up with $1000 to degree 1000, and you value an outcome in which you end up paying $200 to degree -200.)</p>
+<p>The <strong>expected</strong> value of a bet is the weighted average of the values of the different possible outcomes (with weights given by the probability that the outcome will occur, given that the action is performed).</p>
+<p>Consider Bet 1. If you decide to take that bet, there are two possible outcomes:</p>
+<ul>
+<li><p><span class="math">\(H\)</span><br />The coin lands Heads</p></li>
+<li><p><span class="math">\(T\)</span><br />The coin lands Tails</p></li>
+</ul>
+<p>The expected value of Bet 1 is then calculated as follows:</p>
+<p><span class="math">\[EV(B_1) = v(H \; B_1) · p(H|B_1) + v(T \; B_1) · p(T|B_1)\]</span></p>
+<p>Where the components of the equation are to be understood as follows:</p>
+<ul>
+<li><span class="math">\(v(H \; B_1)\)</span> is the degree to which you value a situation in which the coin lands Heads, having taken Bet 1.
+<ul>
+<li>Since you value only money, and since you’ll receive $1000 in such a situation, <span class="math">\(v(H \; B_1) = 1000\)</span>.</li>
+</ul></li>
+<li><span class="math">\(p(H|B1)\)</span> is the probability that you assign to the coin landing Heads, given that you take Bet 1.
+<ul>
+<li>Since we are dealing with a fair coin, <span class="math">\(p(H|B_1) = 50\% = 0.5\)</span>.</li>
+</ul></li>
+<li><span class="math">\(v(T \; B_1)\)</span> is the degree to which you value a situation in which the coin lands Tails, having taken Bet 1.
+<ul>
+<li>Since you value only money, and since you’ll be forced to pay $200 in such a situation, <span class="math">\(v(H \; B_1) = -200\)</span>.</li>
+</ul></li>
+<li><span class="math">\(p(T|B1)\)</span> is the probability that you assign to the coin landing Tails, given that you take Bet 1.
+<ul>
+<li>Since we are dealing with a fair coin, <span class="math">\(p(T|B_1) = 50\% = 0.5\)</span>.</li>
+</ul></li>
+</ul>
+<p>Filling in the equation above with these values, we get the following result:</p>
+<p><span class="math">\[EV(B_1) = 1000 · 0.5 + (-200) · 0.5 = 400\]</span></p>
+<p><em>Upshot</em>: the expected value of Bet 1 is 400.</p>
+</div>
+<div id="exercises" class="section level3">
+<h3>Exercises</h3>
+<div id="calculate-the-expected-value-of-bet-2." class="section level5">
+<h5>1. Calculate the expected value of Bet 2.</h5>
+<pre><code>75</code></pre>
+<p><span class="math">\[EV(B_1) = v(H \; B_1) · p(H|B_1) + v(T \; B_1) · p(T|B_1) = 100 · 0.5 + 50 · 0.5 = 75\]</span></p>
+</div>
+<div id="if-your-options-are-bet-1-and-bet-2-what-does-the-principle-of-expected-value-maximization-say-you-should-choose" class="section level5">
+<h5>2. If your options are Bet 1 and Bet 2, what does the Principle of Expected Value Maximization say you should choose?</h5>
+<ul>
+<li><code>Bet 1</code>
+<ul>
+<li>We noted above that the expected value of Bet 1 is 400, and the result of Exercise 1 is that the expected value of Bet 2 is 75. Since 400 is greater than 75, the Principle of Expected Value Maximization asks us to select Bet 1.</li>
+</ul></li>
+<li>Bet 2</li>
+</ul>
+</div>
+</div>
+<div id="video-review-an-expected-value-calculation" class="section level3">
+<h3><a href="https://www.youtube.com/watch?v=6MbvOpOhu_k">VIDEO REVIEW: An Expected Value Calculation</a></h3>
+</div>
+<div id="the-general-case" class="section level3">
+<h3>The General Case</h3>
+<p>In the general case, the expected value of an action A is defined as follows:</p>
+<p><span class="math">\[EV(A)=(v(O_1 A)·p(O_1|A))+(v(O_2 A)·p(O_2|A))+…+(v(O_i A)·p(O_i|A))\]</span></p>
+<p>where <span class="math">\(O_1,O_2,…,O_i\)</span> is an exhaustive list of possible outcomes, any two of which are mutually exclusive.</p>
+<p>Equivalently:</p>
+<p><span class="math">\[EV(A)=\sum_{i \in I}^{}(v(O_i A)·p(O_i|A))\]</span></p>
+<p>where the <span class="math">\(O_i\)</span> (for <span class="math">\(i\)</span> in <span class="math">\(I\)</span>) constitute an exhaustive list of possible outcomes, any two of which are mutually exclusive.</p>
+</div>
+<div id="back-to-newcomb" class="section level2">
+<h2>Back to Newcomb</h2>
+<p>What are the expected values of one-boxing and two-boxing?</p>
+<p>There are two actions we’re considering:</p>
+<ul>
+<li><p><strong>One-Box</strong> (<span class="math">\(1B\)</span>)<br />Take the contents of the large box only.</p></li>
+<li><p><strong>Two-Box</strong> (<span class="math">\(2B\)</span>)<br />Take the contents of both boxes.</p></li>
+</ul>
+<p>And, there are two possible outcomes:</p>
+<ul>
+<li><p><span class="math">\(F\)</span><br />the large box is full</p></li>
+<li><p><span class="math">\(E\)</span><br />the large box is empty</p></li>
+</ul>
+<p>The expected value of one-boxing can then calculated as follows:</p>
+<p><span class="math">\[EV(1B)=v(F \; 1B)·p(F|1B)+v(E \; 1B)·p(E|1B)\]</span></p>
+<p>If you one-box and the large box is full, you get $1,000,000. So, on the assumption that you value only money, <span class="math">\(v(F \; 1B)=1,000,000\)</span>. If you one-box and the large box is empty, you get nothing. So, on the assumption that you value only money, <span class="math">\(v(E \; 1B)=0\)</span>.</p>
+<p>We therefore have:</p>
+<p><span class="math">\[EV(1B)=1,000,000·p(F|1B)+0·p(E|1B)=1,000,000·p(F|1B)\]</span></p>
+<p>What is <span class="math">\(p(F|1B)\)</span>? In other words: what is the probability that the large box will be full, given that you one-box? If we assume that the predictor is 99% accurate, the answer is 99% = 0.99. So:</p>
+<p><span class="math">\[EV(1B)=1,000,000·0.99=990,000\]</span></p>
+<p>So the expected value of one-boxing is 990,000. What about the expected value of two-boxing? In this case we get the following results:</p>
+<p><span class="math">\[EV(2B)=v(F \; 2B)·p(F|2B)+v(E \; 2B)·p(E|2B)=1,001,000·0.01+1,000·0.99=10,010+990=11,000\]</span></p>
+<p>So whereas the expected value of one-boxing is close to a million (990,000), the expected value of two-boxing is close to ten thousand (11,000).</p>
+<p><em>Upshot</em>: the Principle of Expected Utility Maximization tells us that we should one-box.</p>
+<p>(Is that the right result? We’ll turn to that topic in the next section.)</p>
+<div id="video-review-calculating-ev-in-the-newcomb-problem" class="section level3">
+<h3><a href="https://www.youtube.com/watch?v=7Q3zb-5MHfc">VIDEO REVIEW: Calculating EV in the Newcomb Problem</a></h3>
+</div>
+<div id="exercises-1" class="section level3">
+<h3>Exercises</h3>
+<div id="assume-the-predictor-has-an-80-chance-of-making-the-right-prediction." class="section level5">
+<h5>1. Assume the predictor has an 80% chance of making the right prediction.</h5>
+<p><strong>What is the expected value of one-boxing?</strong></p>
+<pre><code>800000</code></pre>
+<p>When <span class="math">\(p=80\%\)</span>, the expected value of one-boxing is <span class="math">\[(1,000,000 \times 0.8)+(0 \times 0.2)=800,000\]</span></p>
+<p><strong>What is the expected value of two-boxing?</strong></p>
+<pre><code>201000</code></pre>
+<p>The expected value of two-boxing is <span class="math">\[(1,001,000 \times 0.2)+(1,000 \times 0.8)=200,200+800=201,000\]</span></p>
+</div>
+<div id="how-low-can-you-go-how-accurate-does-the-predictor-be-in-order-for-the-principle-of-expected-value-maximization-to-entail-that-one-should-one-box" class="section level5">
+<h5>2. How low can you go? How accurate does the predictor be in order for the Principle of Expected Value Maximization to entail that one should one-box?</h5>
+<p><strong>Enter the smallest number <span class="math">\(x\)</span> such that, as long as the predictor has an accuracy of more than <span class="math">\(x\)</span>, the Principle of Expected Value Maximization entails that one should one-box. (So, for example, if you think the Principle will recommend one-boxing as long as the predictor is more than 73.22% accurate, enter <span class="math">\(.7322\)</span>)</strong></p>
+<pre><code>.5005</code></pre>
+<p>If <span class="math">\(p\)</span> is the probability that the expert’s prediction is accurate, the expected value of one-boxing is</p>
+<p><span class="math">\[(1,000,000 \times p+(0 \times (1-p))\]</span></p>
+<p>and the expected value of two-boxing is</p>
+<p><span class="math">\[(1,001,000 \times (1-p))+(1,000 \times p)\]</span></p>
+<p>These two expected values are equal when <span class="math">\(p=0.5005\)</span> — i.e., <span class="math">\(50.05\%\)</span>. So as long as <span class="math">\(p\)</span> is greater than <span class="math">\(50.05\%\)</span>, the expected value of one-boxing will be greater than the expected value of two-boxing.</p>
+<p>This means that as long as the predictor is at least 50.05% accurate, the Principle of Expected Value Maximization entails that one should be a one-boxer.</p>
+<p>(That is pretty remarkable. Even if experts that are accurate 99% of the time exist only in science fiction, it is not hard to find a predictor that is accurate 50.05% of the time. I myself have an 80% success rate when performing this experiment on my students!)</p>
+</div>
+<div id="consider-a-variant-of-the-newcomb-case-which-works-as-follows.-you-can-choose-either-the-large-box-or-the-small-box-but-not-both.-if-the-predictor-predicts-that-you-would-choose-the-large-box-then-she-left-the-large-box-empty-and-placed-100-in-the-small-box.-if-the-predictor-predicted-that-you-will-choose-the-small-box-then-she-left-the-small-box-empty-and-placed-1000-in-the-large-box.-according-to-the-principle-of-expected-value-maximization-which-of-the-two-boxes-should-you-choose-assume-the-predictor-is-not-perfectly-accurate." class="section level5">
+<h5>3. Consider a variant of the Newcomb case which works as follows. You can choose either the large box or the small box, but not both. If the predictor predicts that you would choose the large box, then she left the large box empty, and placed $100 in the small box. If the predictor predicted that you will choose the small box, then she left the small box empty, and placed $1000 in the large box. According to the Principle of Expected Value Maximization, which of the two boxes should you choose? (Assume the predictor is not perfectly accurate.)</h5>
+<ul>
+<li><code>Large box</code>
+<ul>
+<li>The expected value of choosing the large box is<br /><span class="math">\[(1000 \times (1-p))+(0 \times p)=1000 \times (1-p)\]</span> The expected value of choosing the small box is <span class="math">\[(100 \times (1-p))+(0 \times p)=100 \times (1-p)\]</span> So the Principle of Expected Value Maximization entails that one should choose the large box (for every case except <span class="math">\(p=1\)</span>; in that case, both options have expected value <span class="math">\(0\)</span>, so the Principle of Expected Value Maximization doesn’t entail that you ought to choose one option over the other.).</li>
+</ul></li>
+<li>Small box</li>
+<li>Either</li>
+<li>Problem is ill-defined</li>
+</ul>
 <hr />
 </div>
+</div>
+</div>
+</div>
 <div id="in-defense-of-two-boxing" class="section level1">
-<h1>In Defense of Two-Boxing</h1>
+<h1>3. In Defense of Two-Boxing</h1>
+<div id="in-defense-of-two-boxing-1" class="section level2">
+<h2>In Defense of Two-Boxing</h2>
+<p>Many philosophers believe that one-boxing is irrational, and that the Principle of Expected Value Maximization should therefore be rejected. (Not all! One of my colleagues at MIT — who is also one of the smartest people I know — believes that when the predictor is 100% accurate, it is rational to one-box.)</p>
+<p>In this section I’ll tell you about some of the reasons that philosophers have set forth in defense of two-boxing.</p>
+<div id="mathematosis" class="section level3">
+<h3>Mathematosis</h3>
+<p>Let us begin with an analogy. Suppose there is a gene that has two different effects:</p>
+<ol style="list-style-type: decimal">
+<li><p>It increases the likelihood that one will do mathematics.<br />(Perhaps the gene causes a certain hormone to be released, and the hormone can cause one to do mathematics.)</p></li>
+<li><p>It increases the likelihood that one will suffer a terrible disease: ’mathematosis’.<br />(The symptoms of mathematosis are too terrible to list here; let’s just say you really, really don’t want to have it. )</p></li>
+</ol>
+<p>As a result of this, the disease is more prevalent amongst people who do mathematics than in the population at large. But this is <strong>not</strong> because doing matheamtics causes the disease (or because having the disease causes one to do mathematics). It is because doing mathematics and having the disease have a common cause: they are both caused by the gene.</p>
+<p>(<em>Compare</em>: wet sidewalks are more likely at times when people are using umbrellas, but that’s not because umbrella use causes wet sidewalks (or because wet sidewalks cause umbrella use), it is because wet sidewalks and umbrella use have a common cause: they are both caused by rain.)</p>
+<p>Now suppose that you would quite enjoy doing mathematics. What should you do in a world with mathematosis? Should you refrain from doing mathematics even though you would enjoy it?</p>
+<p>Of course not! If you carry the gene, you’re likely to get the disease, but there is nothing you can do about it now. So better to do mathematics, and enjoy life while you are still healthy. And if you don’t carry the gene, there is no need to worry: you won’t get the disease, regardless of whether you do mathematics. So, again, there’s no reason to refrain from enjoying yourself. Either way: you should do mathematics!</p>
+<p>(<em>Compare</em>: Suppose you don’t want the sidewalks to be wet. Should you refrain from using an umbrella? Of course not! If rain is on the way, the sidewalks will get wet regardless of whether you use your umbrella. So better to use it and stay dry. And if rain is not on its way, there is no need to worry: the sidewalks will remain dry regardless of whether or not you open your umbrella.)</p>
+</div>
+<div id="dependence-causal-and-probabilistic" class="section level3">
+<h3>Dependence, Causal and Probabilistic</h3>
+<p>Two events are <strong>probabilistically independent</strong> if the assumption that one of them occurs does not change the likelihood that the other one will occur. (Otherwise, each of them is <strong>probabilistically dependent</strong> on the other.)</p>
+<p>Two events are <strong>causally independent</strong> if neither of them is a cause of the other. (Otherwise, the effect is <strong>causally dependent</strong> on the cause.)</p>
+<p>The mathematosis example can be used to illustrate the difference between probabilistic dependence and causal dependence:</p>
+<ul>
+<li><p>Having the disease is probabilistically <em>dependent</em> on doing mathematics, because the assumption that you do mathematics increases the likelihood that you have the disease.</p></li>
+<li><p>Having the disease is causally <em>independent</em> from doing mathematics, because doing mathematics does not <em>cause</em> the disease. (What we have instead is a <em>common cause</em>: the gene causes both the disease and a desire to do mathematics.)</p></li>
+</ul>
+<p>Something similar happens in the case of Newcomb’s Problem:</p>
+<ul>
+<li><p>Whether or not the large box contains a million dollars is probabilistically <em>dependent</em> on your choice to one-box or two-box, because the assumption that you one-box increases the likelihood that the large box contains the money.</p></li>
+<li><p>Whether or not the large box contains a million dollars it is causally <em>independent</em> from your choice to one-box or two-box, because your action doesn’t cause the box to have the money in it; the box is, after all, already sealed by the time you act. (Here too we have a <em>common cause</em>: your psychological constitution causes both your decision and the predictor’s prediction.)</p></li>
+</ul>
+<p>The reason that the Principle of Expected Value Maximization recommends one-boxing rather than two-boxing is that it uses probabilistic dependence, rather than causal dependence, to determine how much weight to give each of the possible outcomes of one’s actions. (Notice, in particular, that in calculating the expected value of an action <span class="math">\(A\)</span> one assigns weights to the possible outcomes of <span class="math">\(A\)</span> by using the conditional probability <span class="math">\(p(O_i|A)\)</span>, which tracks probabilistic dependence between <span class="math">\(O_i\)</span> and <span class="math">\(A\)</span>, rather than causal dependence.)</p>
+<p>Philosophers who think that one-boxing is irrational think that that is precisely where the Principle goes wrong. Our decision making, they think, should be guided by causal dependence, not by probabilistic dependence. (I’ll have more to say about this when we turn to Causal Decision Theory, below.)</p>
+</div>
+<div id="exercises-2" class="section level3">
+<h3>Exercises</h3>
+<div id="alice-and-bob-make-independent-decisions-to-go-for-a-walk-in-the-park-on-tuesday-afternoon-and-neither-of-them-brings-an-umbrella.-let-a-be-the-event-of-alices-getting-soaked-in-rain-and-b-be-the-event-of-bobs-getting-soaked-in-rain.-are-a-and-b-probabilistically-independent-are-they-causally-independent" class="section level5">
+<h5>1. Alice and Bob make independent decisions to go for a walk in the park on Tuesday afternoon, and neither of them brings an umbrella. Let A be the event of Alice’s getting soaked in rain, and B be the event of Bob’s getting soaked in rain. Are A and B probabilistically independent? Are they causally independent?</h5>
+<ul>
+<li>only probabilistically independent</li>
+<li><code>only causally independent only causally independent</code>
+<ul>
+<li>The occurrence of A would make it much more likely that B occurs, since it raises the probability that it rained and therefore that they both got soaked. So A and B are not probabilistically independent.</li>
+<li>Since A and B made their decisions independently, we have been given no reason to think that A’s occurrence would cause B to occur, or that B’s occurrence would cause A to occur. (If either of these events occurs, it will presumably be caused by the relevant subject’s decision go for a walk without an umbrella, and by the presence of rain.) So we can expect A and B to be causally independent.</li>
+</ul></li>
+<li>both probabilistically independent and causally independent</li>
+<li>neither probabilistically independent nor causally independent</li>
+</ul>
+</div>
+<div id="let-s-be-the-event-of-joness-smoking-and-c-be-the-event-of-joness-being-diagnosed-with-lung-cancer.-are-s-and-c-probabilistically-independent-are-they-causally-independent" class="section level5">
+<h5>2. Let S be the event of Jones’s smoking, and C be the event of Jones’s being diagnosed with lung cancer. Are S and C probabilistically independent? Are they causally independent?</h5>
+<ul>
+<li>only probabilistically independent</li>
+<li>only causally independent only causally independent</li>
+<li>both probabilistically independent and causally independent</li>
+<li><code>neither probabilistically independent nor causally independent</code>
+<ul>
+<li>Smoking is a cause of lung cancer. So C is not causally independent on A.</li>
+<li>Because smoking is a cause of lung cancer, Jones’s smoking increases the probability that he will be diagnosed with lung cancer. So C and A are not probabilistically independent.</li>
+</ul></li>
+</ul>
+</div>
+</div>
+</div>
+<div id="questions" class="section level2">
+<h2>QUESTIONS</h2>
+<div id="what-if-the-predictor-is-100-accurate" class="section level3">
+<h3><a href="https://www.youtube.com/watch?v=NS2LgxAgboM">What If the Predictor is 100% Accurate?</a></h3>
+</div>
+<div id="maybe-we-should-one-box-because-of-backwards-causation" class="section level3">
+<h3><a href="https://www.youtube.com/watch?v=tNuwBtfmgcE">Maybe We Should One-Box Because of Backwards Causation?</a></h3>
+</div>
+</div>
+<div id="temptation" class="section level2">
+<h2>Temptation</h2>
+<p>Even if you are a committed two-boxer, it can be difficult to escape the temptation to one-box.</p>
+<p>Imagine that a billionaire comes to town, and offers everyone the chance to participate in a Newcomb scenario. After the first day, your one-boxer friends are absolutely delighted. They have each found a million dollars in the large box, and they have spent the night celebrating with caviar and champagne.</p>
+<p>Your two-boxer friends, on the other hand, are all crestfallen. They all found the large box empty, and although there’s nothing wrong with getting a thousand dollars, it’s not quite the same as a million.</p>
+<p>You get your chance to participate the next day. When the time finally comes, you decide to two-box, and, predictably, you find nothing in the large box.</p>
+<p>Your one-boxing friends can’t stop laughing. “What a fool!” they cry. “What on Earth possessed you to two-box!?” Are they right? Did you make a mistake?</p>
+<div id="video-review-why-arent-you-rich-too" class="section level3">
+<h3><a href="https://www.youtube.com/watch?v=1037OU-qvjY">VIDEO REVIEW: Why Aren’t You Rich Too?</a></h3>
+<p>My own view is that you did not make a mistake when you two-boxed.</p>
+<p>The billionaire came to town with the intention of rewarding irrational behavior (i.e., one-boxing). So it would have certainly been in your interests to somehow make her believe that you are irrational. (And, of course, once the boxes were sealed, it would have been in your interests to take both boxes.)</p>
+<p>But by the time the billionaire arrived in town she had already decided who would be rewarded and who would not. Your large box was empty from the start, and there’s nothing you could have done to change that. Leaving the thousand dollars behind would certainly not have helped.</p>
 <hr />
+</div>
+</div>
 </div>
 <div id="the-tickle-defense" class="section level1">
 <h1>4. The Tickle Defense</h1>
