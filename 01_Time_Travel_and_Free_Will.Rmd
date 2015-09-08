@@ -1,10 +1,12 @@
 ---
-title: "Topic 1: Time Travel and Free Will"
+title: 'Topic 1: Time Travel and Free Will'
 output:
-    html_document:
-        toc: true
-        toc_depth: 4
-        theme: cerulean
+  html_document:
+    theme: readable
+    toc: yes
+    toc_depth: 4
+  pdf_document:
+    toc: yes
 ---
 
 ----
