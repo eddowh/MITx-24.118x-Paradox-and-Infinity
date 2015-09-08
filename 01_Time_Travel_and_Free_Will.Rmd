@@ -1,0 +1,129 @@
+---
+title: "Topic 1: Time Travel and Free Will"
+output:
+    html_document:
+        toc: true
+        toc_depth: 4
+        theme: cerulean
+---
+
+----
+
+# 1. Time Travel
+
+## [VIDEO: WELCOME TO WEEK 1!](https://www.youtube.com/watch?v=rjOpZ3i6pRo)
+
+See [here](https://www.youtube.com/watch?v=5OXQypOAbdI) for Tina Fey’s take on the Time Traveler’s Convention.
+
+## Consistent and Inconsistent Time Travel Stories
+
+[*Back to the Future*](https://www.youtube.com/watch?v=yosuvf7Unmg) is an inconsistent time travel story.
+
+At the beginning of the film we are told that, on October 25, 1985, George McFly is respected by none, and leads a miserable life. Later in the film we are told that George’s son, Marty, travels back in time to 1955 and meets his young father. As a result of their meeting, George conquers his fears, and blossoms into a bold and courageous man. Towards the end of the film, we are told that Marty returns to October 25, 1985, and is faced with a very different situation from the one that was described at the beginning of the film. George is respected by all, and leads a happy life.
+
+It is not hard to see why this story is inconsistent. At the beginning of the film we are told that George has a miserable life at time $t$. At the end of the film we are told that George has a happy (and therefore non-miserable) life at time $t$. In other words: what we are told at the beginning of the film conflicts with what we are told at the end of the film. 
+
+For a time-travel story to be consistent, it must never give us conflicting descriptions of a single point in the narrative’s timeline. If at some point in the story we are told that, on October 25, 1985, the world is thus and so, then this is a fact that must be respected throughout the narrative, regardless of what happens to the characters in the story as they travel through time.
+
+## [QUESTION: COULDN'T THE TIMELINE CHANGE?](https://www.youtube.com/watch?v=mboSkFdzcbo)
+
+## A World-Travel Interpretation?
+
+We could try to make the story consistent by thinking of it as a story about travelling between worlds, rather than a story of time travel within a single world. The idea is that, when Marty reaches 88 miles per hour in the DeLorean, he travels to the 1955 of a different universe, and then comes back to the 1985 of that other universe. So George is miserable in 1985 in the original universe, and his alternative-universe counterpart is happy in his own, other-worldly 1985. Then there would then be no inconsistency.
+
+But if that is really what happened, then it seems like we should feel very differently about events in the film than the film itself encourages us to feel. For instance, it seems like the film is supposed to have a happy ending. But on the alternate-universe interpretation, the ending is tragic. At the end, Marty goes to the 1985 of the alternate universe. He seems to think he’s been reunited with his real family, and is happy to be home. But he hasn’t; he’s meeting these alternate-universe copies of his real family for the first time. His real family is still miserable back in his home universe. They are probably even more miserable now that Marty has disappeared. It seems that Marty will live out his days as an impostor in this new universe, his old universe abandoned. This makes *Back to the Future* a total downer!
+
+## The Moral
+
+The one-universe interpretation of *Back to the Future* is inconsistent. You might be tempted to think that *all* time travel stories set in a single universe are inconsistent. Not so! But it takes some ingenuity to make a time travel story completely consistent. That’s why consistent time travel stories can be fun to watch. Good examples include [Twelve Monkeys](https://www.youtube.com/watch?v=CBNMEwNx9x4) and [The Time Traveler’s Wife](https://www.youtube.com/watch?v=USUDlMBR-dQ). (And maybe [Primer](https://www.youtube.com/watch?v=4CC60HJvZRE), though it is so complicated it is hard to tell whether it is consistent or not. Check it out and try to decide!) 
+
+Even if not all time-travel stories are inconsistent, the fact that *some* of them are leads some people to think that time-travel is logically impossible. Read on...
+
+## [VIDEO REVIEW: CONSISTENT AND INCONSISTENT TIME TRAVEL STORIES](https://www.youtube.com/watch?v=-NvRCu3EDVE)
+
+## EXERCISES
+
+##### 1. Determine whether the following narrative can be interpreted as a consistent time travel story (barring travel between worlds): You are an avid gambler. One day at the races you decide to take a risk, and bet all your savings on Easy Goer. Tragically, you lose; Master Charlie wins the race, by a nose. Because of your recklessness, you end up leading a life of hardship. Towards the end of your life, however, you catch a lucky break: an old aunt bequeathes you a time-machine. So you travel back to the time in which you had placed the disastrous bet. You head straight for the tracks, and see your younger self standing in line, anxiously awaiting the chance to place a bet on Easy Goer. You stand next to him and whisper into his ear “I’ve got some inside info, buddy. Master Charlie’s got the goods!” Your younger self acquiesces, and bets his money on Master Charlie. He wins big, and spends the rest of his life in luxury and style.
+
+INCONSISTENT
+
+##### 2. Determine whether [this story](http://www.cs.ru.nl/~freek/books/thunder.sat) can be interpreted as a consistent time travel story (barring travel between worlds):
+
+INCONSISTENT
+
+##### 3. Determine whether [this story](http://cla.calpoly.edu/~lcall/303/heinlein_all_you_zombies.pdf) can be interpreted as a consistent time travel story (barring travel between worlds):
+
+CONSISTENT
+
+##### 4. Determine whether the following narrative can be interpreted as a consistent time travel story (barring travel between worlds): On the eve of your 21st birthday, an elderly stranger shows up at your doorstep and tells you how to build a time-machine. After several years of work, you succeed in constructing a working version of the machine, and lead a fascinating life of time-travel. Towards the end of your life you use your time-machine to travel to the eve of your 21st birthday and tell your younger self how to build a time-machine.
+
+CONSISTENT
+
+    - According to this narrative, something is a cause of itself. (Specifically: the encounter of your older and younger selves causes your younger self to build a time machine and, later and life, travel back in time to encounter his younger self.) That means that the scenario depicted by the story is weird, and possibly even incompatible with the laws of physics. But there is nothing outright inconsistent about it. There is no time t and proposition p such that we are told that p is the case at t at one point in the narrative, and told that p is not the case at t at a different point in the narrative. So the narrative can be interpreted as a consistent time-travel story.
+
+## Optional Activities
+
+- Watch *Twelve Monkeys*, and think about how to interpret it as a consistent time travel story.
+- **Advanced Option**: Watch *Primer* and determine whether it can be interpreted as a consistent time travel story or not.
+
+## [SELF CAUSATION QUESTION: ISN'T THAT 'CONSISTENT' CASE PARADOXICAL?](https://www.youtube.com/watch?v=TCAfqOo88Sg)
+
+## The Grandfather Paradox
+
+Consider Bruno. Bruno hates his grandfather, and not without reason. Grandfather was a terrible man: he was a gambler and a drunk. Not just that. Grandfather orchestrated a large-scale fraud, which left hundreds of people in poverty. Nothing would please Bruno more than killing Grandfather. But there is a problem: Grandfather died many years ago, long before Bruno was born. Undeterred, Bruno builds a time machine and travels to September 13, 1937, a time before Grandfather had children, and before he orchestrated the fraud. Nothing will stop him from killing Grandfather now!
+
+After weeks of careful planning, the moment of truth has arrived. Bruno has climbed up a church steeple, and positioned himself at the belfry with a sniper’s rifle. Grandfather is on his morning walk. Bruno spots him, and aims his rifle with the precision of an expert gunman. Grandfather stops to tie his shoelaces. The church bells start ringing. Noon has arrived. Bruno caresses the trigger. Grandfather stands still for a moment, as a breeze ruffles the trees nearby. Bruno prepares to shoot…What happens next?
+
+Suppose Bruno kills Grandfather. Then Grandfather will never have children. So Bruno's mother will never be born. So she will never have Bruno. So Bruno won’t go back in time. So he won’t kill Granfather. So if he kills Grandfather, he won't kill Grandfather. Contradiction! Paradox!
+
+So it can’t be that Bruno kills Granfather. But what’s to stop him?
+
+Here is a tempting thought: it must be that Bruno could never have been in a position to kill Grandfather. He must not have been able to go back in time, contrary to our initial assumption. According to this thought, our story is a *reductio* of the idea of time-travel — that is, it shows that the assumption that time-travel is possible leads to contradiction, and thus shows that time-travel is an inherently contradictory idea, like a square circle. 
+
+I don’t think that's the right way of thinking about the situation. This is what I think we should say instead. When we hear the story, we know that somehow Grandfather will survive. We know this because it follows from the earlier part of my narrative that Grandfather will live long enough to have children, and the only way for this to happen is for Bruno’s 1937 assassination attempt to fail. But why will Bruno fail? It will probably be for some perfectly mundane reason. Perhaps he will lose his nerve at the last minute; perhaps he will get distracted by the barking of a nearby dog; perhaps he will slip on a banana peel; perhaps his trigger will get stuck.
+
+Of course, the issue is not settled by the story so far. Our story offers us no particular clue as to what stops Bruno; in fact, the way the story is told makes any particular reason seem very arbitrary. But arbitrary is not the same as inconsistent. What we know is that, as long as the story is consistent, the assassination attempt will somehow fail. It will fail, because it already has failed.
+
+## [VIDEO REVIEW: THE GRANDFATHER PARADOX](https://www.youtube.com/watch?v=-LVhT2vofPo)
+
+## Could an all-powerful God make Bruno kill Granfather?
+
+Not even an all-powerful God could make a world in which Bruno kills his grandfather before his grandfather has children.
+
+How do we know this? Because not even an all-powerful God could bring about an inconsistent state of affairs, and a world in which a grandfather gets killed before having children would be inconsistent. 
+
+Here is a picture that I sometimes find helpful. Imagine that the way God makes the world is by starting with a grid of space-time points, and then deciding what physical properites to fill each space-time point with (in some God places positive charge; in some She places mass). Since we are assuming that our God is all-powerful, She can fill each space-time point however She likes (or leave it blank). On some ways of filling out space-time points, the world will be such that someone kills his grandfather. On other ways of filling out space-time points, the world will be such that someone travels back in time and kills someone before that person has children. But there is no way of filling out space-time points whereby the world is both such that someone kills his grandfather and such that he does so by travelling back in time to kill him before his grandfather has children.
+
+(*A comparison*: Suppose you are allowed to paint each of the points on a sheet of paper any color you like. Could you draw a figure that is both a circle and a sqaure? You cannot: there is no way of filling out points on a page that would yield such a figure.)
+
+## What about Contemporary Physics?
+
+I hope to have convinced you that a world in which Bruno kills his grandfather before his grandfather has children would be inconsistent.
+
+Since the laws of physics are consistent, this means that any scenario consistent with the laws of physics is a scenario in which it is not the case that Bruno kills his grandfather before his grandfather has children. But how does this work? How, exactly, does it come about that paradoxical scenarios get ruled out by the laws of physics? (Why is any scenario in which Bruno travels back in time to kill Grandfather also a scenario in which he either looses his nerve, or slips on a bannana peel, or *something*?)
+
+The first thing to note is that the particular way in which a system of physical laws rules out paradoxical scenarios need not be especially interesting. (To see this, consider the question of how the laws of physics rule out a scenario in which I draw a figure that is both a circle and a square.)
+
+But is there anything more substantial to be said?
+
+The simplest interesting way for a system of physical laws to rule out a scenario in which someone kills his own grandfather before his grandfather has children is for the laws to exclude time-travel altogether. As it turns out, however, it is not clear that this is true of the actual laws of physics, since there are solutions to Einstein’s equations which allow for time-travel. (See [here](http://plato.stanford.edu/entries/time-travel-phys/) for more information.)
+
+Some systems of laws that allow for time travel turn out to exclude paradoxical scenarios in interesting ways. If you’d like to know more, have a look at [these](http://plato.stanford.edu/entries/time-travel-phys/#5) toy examples. Even better: have a look at the [Bonus Section](#bonus-section-meet-the-expert) below, in which MIT physicist Alan Guth tackles the question of whether it is physically possible to build a time machine.
+
+## WiPhi Video Summary
+
+If you’d like to see a fun summary of the material so far, check out the video below. It was animated by Damien Rochford as part of [Wi-Phi](http://wi-phi.com/), a project which works with the Khan Academy to make philosophy more accessible to non-philosophers.
+
+## [VIDEO](https://www.youtube.com/watch?v=M8oITAoaCr4)
+
+----
+
+# 2. Free Will
+
+# 3. More on Free Will
+
+# [4. Frankfurt Cases]
+
+# 5. Further Resources
+
+# [6. Bonus Section: Meet the Expert]
