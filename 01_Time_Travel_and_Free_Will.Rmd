@@ -13,7 +13,7 @@ output:
 
 # 1. Time Travel
 
-## [VIDEO: WELCOME TO WEEK 1!](https://www.youtube.com/watch?v=rjOpZ3i6pRo)
+## [VIDEO: Welcome to Week 1!](https://www.youtube.com/watch?v=rjOpZ3i6pRo)
 
 See [here](https://www.youtube.com/watch?v=5OXQypOAbdI) for Tina Fey’s take on the Time Traveler’s Convention.
 
@@ -27,48 +27,58 @@ It is not hard to see why this story is inconsistent. At the beginning of the fi
 
 For a time-travel story to be consistent, it must never give us conflicting descriptions of a single point in the narrative’s timeline. If at some point in the story we are told that, on October 25, 1985, the world is thus and so, then this is a fact that must be respected throughout the narrative, regardless of what happens to the characters in the story as they travel through time.
 
-## [QUESTION: COULDN'T THE TIMELINE CHANGE?](https://www.youtube.com/watch?v=mboSkFdzcbo)
+### [QUESTION: Couldn't the Timeline Change?](https://www.youtube.com/watch?v=mboSkFdzcbo)
 
-## A World-Travel Interpretation?
+### A World-Travel Interpretation?
 
 We could try to make the story consistent by thinking of it as a story about travelling between worlds, rather than a story of time travel within a single world. The idea is that, when Marty reaches 88 miles per hour in the DeLorean, he travels to the 1955 of a different universe, and then comes back to the 1985 of that other universe. So George is miserable in 1985 in the original universe, and his alternative-universe counterpart is happy in his own, other-worldly 1985. Then there would then be no inconsistency.
 
 But if that is really what happened, then it seems like we should feel very differently about events in the film than the film itself encourages us to feel. For instance, it seems like the film is supposed to have a happy ending. But on the alternate-universe interpretation, the ending is tragic. At the end, Marty goes to the 1985 of the alternate universe. He seems to think he’s been reunited with his real family, and is happy to be home. But he hasn’t; he’s meeting these alternate-universe copies of his real family for the first time. His real family is still miserable back in his home universe. They are probably even more miserable now that Marty has disappeared. It seems that Marty will live out his days as an impostor in this new universe, his old universe abandoned. This makes *Back to the Future* a total downer!
 
-## The Moral
+### The Moral
 
 The one-universe interpretation of *Back to the Future* is inconsistent. You might be tempted to think that *all* time travel stories set in a single universe are inconsistent. Not so! But it takes some ingenuity to make a time travel story completely consistent. That’s why consistent time travel stories can be fun to watch. Good examples include [Twelve Monkeys](https://www.youtube.com/watch?v=CBNMEwNx9x4) and [The Time Traveler’s Wife](https://www.youtube.com/watch?v=USUDlMBR-dQ). (And maybe [Primer](https://www.youtube.com/watch?v=4CC60HJvZRE), though it is so complicated it is hard to tell whether it is consistent or not. Check it out and try to decide!) 
 
 Even if not all time-travel stories are inconsistent, the fact that *some* of them are leads some people to think that time-travel is logically impossible. Read on...
 
-## [VIDEO REVIEW: CONSISTENT AND INCONSISTENT TIME TRAVEL STORIES](https://www.youtube.com/watch?v=-NvRCu3EDVE)
+### [VIDEO REVIEW: Consistent and Inconsistent Time Travel Stories](https://www.youtube.com/watch?v=-NvRCu3EDVE)
 
-## EXERCISES
+### Exercises
 
 ##### 1. Determine whether the following narrative can be interpreted as a consistent time travel story (barring travel between worlds): You are an avid gambler. One day at the races you decide to take a risk, and bet all your savings on Easy Goer. Tragically, you lose; Master Charlie wins the race, by a nose. Because of your recklessness, you end up leading a life of hardship. Towards the end of your life, however, you catch a lucky break: an old aunt bequeathes you a time-machine. So you travel back to the time in which you had placed the disastrous bet. You head straight for the tracks, and see your younger self standing in line, anxiously awaiting the chance to place a bet on Easy Goer. You stand next to him and whisper into his ear “I’ve got some inside info, buddy. Master Charlie’s got the goods!” Your younger self acquiesces, and bets his money on Master Charlie. He wins big, and spends the rest of his life in luxury and style.
 
-INCONSISTENT
+- Consistent
+- Inconsistent
+    - This narrative cannot be interpreted as a consistent time-travel story because it makes contradictory claims about your life after the race. Towards the beginning of the narrative we are told that you live in poverty after the race. Towards the end of the narrative we are told that you live in luxury after the race.
 
 ##### 2. Determine whether [this story](http://www.cs.ru.nl/~freek/books/thunder.sat) can be interpreted as a consistent time travel story (barring travel between worlds):
 
-INCONSISTENT
+- Consistent
+- Inconsistent
+    - Correct Answer
 
 ##### 3. Determine whether [this story](http://cla.calpoly.edu/~lcall/303/heinlein_all_you_zombies.pdf) can be interpreted as a consistent time travel story (barring travel between worlds):
 
-CONSISTENT
+- Consistent
+- Inconsistent
+    - Correct Answer
 
-##### 4. Determine whether the following narrative can be interpreted as a consistent time travel story (barring travel between worlds): On the eve of your 21st birthday, an elderly stranger shows up at your doorstep and tells you how to build a time-machine. After several years of work, you succeed in constructing a working version of the machine, and lead a fascinating life of time-travel. Towards the end of your life you use your time-machine to travel to the eve of your 21st birthday and tell your younger self how to build a time-machine.
-
-CONSISTENT
-
-    - According to this narrative, something is a cause of itself. (Specifically: the encounter of your older and younger selves causes your younger self to build a time machine and, later and life, travel back in time to encounter his younger self.) That means that the scenario depicted by the story is weird, and possibly even incompatible with the laws of physics. But there is nothing outright inconsistent about it. There is no time t and proposition p such that we are told that p is the case at t at one point in the narrative, and told that p is not the case at t at a different point in the narrative. So the narrative can be interpreted as a consistent time-travel story.
-
-## Optional Activities
+### Optional Activities
 
 - Watch *Twelve Monkeys*, and think about how to interpret it as a consistent time travel story.
 - **Advanced Option**: Watch *Primer* and determine whether it can be interpreted as a consistent time travel story or not.
 
-## [SELF CAUSATION QUESTION: ISN'T THAT 'CONSISTENT' CASE PARADOXICAL?](https://www.youtube.com/watch?v=TCAfqOo88Sg)
+## Self Causation
+
+### Exercise
+
+##### Determine whether the following narrative can be interpreted as a consistent time travel story (barring travel between worlds): On the eve of your 21st birthday, an elderly stranger shows up at your doorstep and tells you how to build a time-machine. After several years of work, you succeed in constructing a working version of the machine, and lead a fascinating life of time-travel. Towards the end of your life you use your time-machine to travel to the eve of your 21st birthday and tell your younger self how to build a time-machine.
+
+- Consistent
+    - According to this narrative, something is a cause of itself. (Specifically: the encounter of your older and younger selves causes your younger self to build a time machine and, later and life, travel back in time to encounter his younger self.) That means that the scenario depicted by the story is weird, and possibly even incompatible with the laws of physics. But there is nothing outright inconsistent about it. There is no time t and proposition p such that we are told that p is the case at t at one point in the narrative, and told that p is not the case at t at a different point in the narrative. So the narrative can be interpreted as a consistent time-travel story.
+- Inconsistent
+
+### [QUESTION: Isn't That 'Consistent' Case Paradoxical?](https://www.youtube.com/watch?v=TCAfqOo88Sg)
 
 ## The Grandfather Paradox
 
@@ -86,9 +96,9 @@ I don’t think that's the right way of thinking about the situation. This is wh
 
 Of course, the issue is not settled by the story so far. Our story offers us no particular clue as to what stops Bruno; in fact, the way the story is told makes any particular reason seem very arbitrary. But arbitrary is not the same as inconsistent. What we know is that, as long as the story is consistent, the assassination attempt will somehow fail. It will fail, because it already has failed.
 
-## [VIDEO REVIEW: THE GRANDFATHER PARADOX](https://www.youtube.com/watch?v=-LVhT2vofPo)
+### [VIDEO REVIEW: The Grandfather Paradox](https://www.youtube.com/watch?v=-LVhT2vofPo)
 
-## Could an all-powerful God make Bruno kill Granfather?
+### Could an all-powerful God make Bruno kill Granfather?
 
 Not even an all-powerful God could make a world in which Bruno kills his grandfather before his grandfather has children.
 
@@ -98,7 +108,7 @@ Here is a picture that I sometimes find helpful. Imagine that the way God makes 
 
 (*A comparison*: Suppose you are allowed to paint each of the points on a sheet of paper any color you like. Could you draw a figure that is both a circle and a sqaure? You cannot: there is no way of filling out points on a page that would yield such a figure.)
 
-## What about Contemporary Physics?
+### What about Contemporary Physics?
 
 I hope to have convinced you that a world in which Bruno kills his grandfather before his grandfather has children would be inconsistent.
 
@@ -112,18 +122,15 @@ The simplest interesting way for a system of physical laws to rule out a scenari
 
 Some systems of laws that allow for time travel turn out to exclude paradoxical scenarios in interesting ways. If you’d like to know more, have a look at [these](http://plato.stanford.edu/entries/time-travel-phys/#5) toy examples. Even better: have a look at the [Bonus Section](#bonus-section-meet-the-expert) below, in which MIT physicist Alan Guth tackles the question of whether it is physically possible to build a time machine.
 
-## WiPhi Video Summary
+## [VIDEO: WiPhi Summary](https://www.youtube.com/watch?v=M8oITAoaCr4)
 
 If you’d like to see a fun summary of the material so far, check out the video below. It was animated by Damien Rochford as part of [Wi-Phi](http://wi-phi.com/), a project which works with the Khan Academy to make philosophy more accessible to non-philosophers.
-
-## [VIDEO](https://www.youtube.com/watch?v=M8oITAoaCr4)
 
 ----
 
 # 2. Free Will
 
-
-What is it to act freely? 
+## What is it to act freely? 
 
 A natural answer is that one acts freely if and only if one could have done otherwise. 
 
@@ -143,7 +150,7 @@ Generally speaking, a **sufficient condition** for $Y$ is a condition whose sati
 
 ( If you'd like to know more about sufficient and necessary conditions, you can check out [this video](https://www.youtube.com/watch?v=5LqNm9d2__I). If you'd like to do exercises beyond the ones below, you can find some [here](https://www.khanacademy.org/bigbingo_redirect?continue=/partner-content/wi-phi/critical-thinking/e/necessary-vs-sufficient-conditions&conversion_ids=search_click_exercise,search_click_top_result). )
 
-## EXERCISES
+### Exercises
 
 ##### 1. Being divisible by 2 is __________ for being divisible by 4.
 
@@ -207,7 +214,7 @@ Here, again, are (SUF) and (NEC):
 
 So: could Bruno have done otherwise?
 
-## An argument
+### An argument
 
 Let us add some details to our story. Let us suppose that the assassination attempt was well-documented in the local press. It is known that the would-be assassin fired a single shot. The bullet missed Grandfather — but only barely: it burnt a scar on his left cheek.
 
@@ -215,7 +222,7 @@ Bruno has seen that scar in photographs on countless occasions. He can remember 
 
 On this version of the story, we know exactly how Bruno will act: he will take a single shot and miss—but only barely. This means that any possibility consistent with *what we know* about the rest of the story is a possibility in which he does not kill Grandfather. So it is tempting to think that Bruno couldn’t have done otherwise. And, of course, someone who accepts (NEC) would claim that Bruno only acts freely in shooting and missing if he could have done otherwise. So someone who accepts (NEC) might be tempted to think that Bruno failed to act freely.
 
-## Does the argument succeed?
+### Does the argument succeed?
 
 As it turns out, there are two big problems with the argument above.
 
@@ -233,7 +240,7 @@ Now return to the case of Bruno. We — the readers — have information about t
 
 We know enough about the story to know that Bruno’s assassination attempt will, in fact, fail. But why should we accept the further claim that there isn’t an alternative possibility (in the sense of ‘possibility’ that matters for free will) in which Bruno decides to to aim slightly to the right and the assassination attempt succceeds? If there is such an alternative possibility, then (SUF) entails that Bruno acted freely when he failed to kill Grandfather.
 
-## EXERCISES
+### Exercises
 
 ##### 1. Suppose we learn that your train-chasing friend bought a ticket, but we have no idea whether she got past security. Should one expect the following to be true? If she got past security, she managed to make the trip to Alaska.
 
@@ -251,15 +258,15 @@ We know enough about the story to know that Bruno’s assassination attempt will
 
 ##### 3. Here is the story of Death in Damascus
 
-    One day a travelling merchant met Death in the souks of Damascus. Death appeared surprised, but she quickly recovered her characteristic cool and intoned with cadaverous solemnity, “Prepare yourself; I am coming for you tomorrow.”
+One day a travelling merchant met Death in the souks of Damascus. Death appeared surprised, but she quickly recovered her characteristic cool and intoned with cadaverous solemnity, “Prepare yourself; I am coming for you tomorrow.”
 
-    The merchant was terrified, and fled that very night to Aleppo.
+The merchant was terrified, and fled that very night to Aleppo.
 
-    The next day, the merchant woke up and — horror of horrors! — found Death at her bedside. Her voice quaking, she managed to squeak, “I thought you were looking for me in Damascus!”
+The next day, the merchant woke up and — horror of horrors! — found Death at her bedside. Her voice quaking, she managed to squeak, “I thought you were looking for me in Damascus!”
 
-    “No, I was merely shopping in Damascus,” said Death. “That’s why I was surprised to see you: it is written that our final meeting is in Aleppo.”
+“No, I was merely shopping in Damascus,” said Death. “That’s why I was surprised to see you: it is written that our final meeting is in Aleppo.”
 
-    Could the merchant have stayed in Damascus, and avoided her date with Death? Think about this for a moment before reading on...
+Could the merchant have stayed in Damascus, and avoided her date with Death? Think about this for a moment before reading on...
     
 **Whether the merchant could have avoided her date with Death is not fully specified by the story so far, but here’s a way of interpreting the story so that, yes, the merchant could have avoided her date with Death; it’s just that she wasn’t going to, and Death knew this.**
 
@@ -284,7 +291,7 @@ Regardless of whether the actual laws of nature turn out to be deterministic, we
 
 The answer, as we shall see, depends partly on what one takes a law to be.
 
-## Humeanism
+### Humeanism
 
 On one way of thinking about about laws, a law of nature give us information about how the world will, in fact, develop. But it does not tell us that the world *must* develop that way. More specifically. it does not tell us that alternate futures are not *possible*, in the sense of ‘possibility’ that is relevant to free will; it just tells us that alternate futures will not, in fact, come about.
 
@@ -298,7 +305,7 @@ On a Humean conception of the laws, knowing the laws of nature is like befriendi
 
 *Moral*: if Humeanism is right, then determinism need not be incompatible with free will, even on the assumption that (NEC) is true. 
 
-## A Shameless Plug
+### A Shameless Plug
 
 David Lewis has famously argued for a Humean conception of the laws of nature. (See his ‘[Humean Supervenience Debugged](http://joelvelasco.net/teaching/3865/lewis%2094%20-%20humean%20supervenience%20debugged.pdf)’.)
 
@@ -308,14 +315,142 @@ My own view is that Lewis is *almost* right, but not quite. If you'd like to lea
 
 # 3. More on Free Will
 
+## What Alternative Possibilities are Relevant?
+
+As I noted earlier, there is some reason for doubting whether (NEC) is correct. (If you'd like to know more, see the optional discussion of Frankfurt in section 1.4.)
+
+In contrast, I see no obvious reason for doubting (SUF):
+
+- If a person could have done something other than $X$, then she acted freely in doing $X$. 
+
+As it stands, however, (SUF) is slightly under-determined. For (SUF) tells us that if there is a *possibility* in which someone does something other than $X$, then she is acts freely in doing $X$. But we are not told what sorts of scenarios are to be counted as possibilities.
+
+We made a little progress on this issue earlier, when we noted that something can count as a possibility for the purposes of (SUF) even if we — we, the theorists — are in a position to exclude it on the basis of information we have about the actual future of the relevant situation. But that still leaves matters quite open.
+
+Suppose, for example, that I am chained to my chair. Am I free to walk away? Intuitively, not. But there need be no *logical contradiction* in a scenario in which a miracle occurs, my chains disappear, and I stand up and walk away. So there is a *logical possibility* in which I do walk away. Since we don't want such a possibility to count as relevant for the purposes of free will, we want to make sure it is somehow excluded when it comes to applying (SUF).
+
+How might one revise (SUF) so as to make clear which possibilities are relevant?
+
+I don’t think there’s an easy answer to this question, but my guess is that (SUF) should be revised roughly as follows:
+
+- **Revised Sufficient Condition for Free Action (RSUF)**:  
+Suppose there is a possibility satisfying the conditions below in which a person does something other than X. Then the person acted freely in doing X.
+    - The alternate possibility is just like the actual world at all times prior to the relevant action.
+    - At the time of the relevant action, it’s okay for the alternate possibility to include a ‘miracle’: a violation of the actual physical laws. After the ‘miracle’ has taken place, however, events must continue to take place in accordance with the laws of physics.
+    - The ‘miracle’ must occur entirely within the subject’s brain, and it must be such as to not change her psychological profile. (It must, for example, leave her beliefs and desires facts intact.)
+    - The ‘miracle’ must cause the subject to make a decision different from the one she actually made, and it must be the case that, as a result of this decision, she does something different from what she actually did.
+    
+### [VIDEO REVIEW: The Sense of 'Could' Relevant to Free Will](https://www.youtube.com/watch?v=TSH1P-mMWEk)
+
+### Exercises
+
+##### 1. A scenario is *logically possible* if it can be described without contradiction. A scenario is *physically possible* if it involves no violation of a physical law.
+
+**Describe a scenario which is logically possible but not physically possible.**
+
+- Suppose it is a law of physics that nothing can travel faster than the speed of light. Then a scenario in which I travel from Earth to Alpha Centauri in two minutes is incompatible with the laws of physics, and therefore physically impossible. But it is not logically impossible because my travelling to Alpha Centauri in two minutes does not entail a logical contradiction.
+
+##### 2. Describe a scenario that is possible in the sense relevant to action, according to (RSUF), but not physically possible.
+
+- The answer to this question depends a bit on what exactly the physical laws are like. But suppose the laws are deterministic. Then, if I in fact wore a pink shirt today, a scenario in which the initial conditions of the universe are the same, but I wear a blue shirt today, is inconsistent with physical laws. But such a scenario is still possible in the sense relevant to action, according to (RSUF), because that scenario is just like the actual scenario, except for a small miracle that occurs in my brain when deciding what shirt to wear today. Nothing else has to change because I have a blue shirt in my closet, right next to the pink one, you see.
+
+## Disappointed?
+
+A common reaction to this account of the possibilities relevant to free will: something seems disappointing about it. Maybe the videos below can help explain why.
+
+### [VIDEO: This Is Not Physics](https://www.youtube.com/watch?v=Q8TtAP5KXGI)
+
+### [VIDEO: Maybe We're Changing the Subject](https://www.youtube.com/watch?v=eJ0TifbbTWo)
+
 ----
 
-# [4. Frankfurt Cases]
+# 4. Frankfurt Cases
+
+## Advanced Topic [Optional]
+
+In our discussion of free will we considered a necessary condition on free action:
+
+- **Necessary Condition for Acting Freely (NEC):**  
+If a person acted freely in doing $X$, then she could have done something other than $X$.
+
+A philosopher named Harry Frankfurt proposed a famous counterexample to (NEC). (These days, counterexamples of this kind are called ‘Frankfurt Cases’.)
+
+Consider Ilda, who is about to commit a terribly evil act: she is going to kick a puppy. A dachshund puppy. She imagines the upcoming kick with glee; she rubs her hands in anticipation. “It's going to be so great!” she says to herself.
+
+Unbeknownst to Ilda, she is being monitored by a genius neuroscientist: Dr. Evil. Using advanced technology, Dr. Evil is constantly scanning Ilda’s brain to see if she is going to go through with her intention to kick the puppy. If, at any time, Ilda shows signs of wavering, Dr. Evil is ready to intervene: she will use her powerful mind-control rays to make Ilda kick the puppy after all.
+
+But, as it happens, Dr. Evil never needs to intervene, as Ilda never waivers. From beginning to end, Ilda is set on kicking the puppy, and she does.
+
+Now, Ilda could not have done other than kick the puppy; had she tried, Dr. Evil would have immediately intervened and made her kick the puppy anyway. But it is natural to think that Ilda nonetheless acted freely when she kicked the puppy. After all, Ilda is obviously responsible for kicking the puppy — we all think Ilda can be held accountable for her terrible act. But if she’s responsible, she had to act freely.
+
+What this shows, says Frankfurt, is that it is possible to not be able to act otherwise, but still act freely. That is exactly what happened in Ilda’s case.
+
+### Exercise
+
+##### Construct another Frankfurt case. This time, no mind control. [Hint: when we first introduced (NEC) in section 2, we considered an exercise involving a party...]
+
+- You decide to leave the party, and you do. You had been annoying your hosts, however. So had you instead decided to stay, they would have forced you to leave anyway.
+
+## Frankfurt’s Theory of Action
+
+If Frankfurt is right, and (NEC) is false, when do you act freely? Frankfurt himself went on to develop a theory. His theory is that whether you act freely is not about what possibilities are open to you; instead, it's all about having the right kind of mental state when you act.
+
+What kind of mental state is that?
+
+Here’s the idea. A person has many desires: a desire to go get ice cream, a desire to be good at football, a desire to finish her homework, and so on. Some desires are about desires: you might desire, for instance, to desire to read great works of literature. Maybe you don’t, in fact, desire to read great works of literature; maybe you find them super boring. But maybe you wish you did desire to read great works of literature. You wish you were the kind of person who enjoyed that sort of thing.
+
+Frankfurt calls desires like that, which are themselves about desires, **second-order desires**. Frankfurt’s theory (not exactly, but roughly speaking) is that you act freely when you act in accordance with your second-order desires. When you act that way, according to Frankfurt, you are acting in a way that you, yourself, endorse. You are not being just pushed around by random desires; you are instead the author of your own actions, and hence you are acting freely.
+
+This theory seems to get the right result in many cases. Consider Maria, who is addicted to heroin. Maria desires heroin a lot: that’s part of her addiction. But she doesn’t desire to desire heroin. She hates that she desires heroin. She wishes for nothing more than to kick the habit. She fights her addiction with all her might; but sometimes the addiction wins out, and she finds herself shooting up nevertheless. Maria, it seems, does not act freely when she shoots up. And that is exactly what Frankfurt’s theory says. So, point Frankfurt.
+
+But there are some cases which don’t fit quite so well with the Frankfurt theory. Consider the case of Huck Finn. In Mark Twain’s story, Huck is travelling with an escaped slave named Jim. Huck and Jim are good friends, and help each other out. But Huck feels bad about helping out Jim. He was raised in Mississippi, before the civil war, in a slaveholding society. Everyone around him has taught him that it is right and proper to own slaves, and that helping an escaped slave is like theft: you are running away with someone’s property. Huck believes it is unethical to help Jim out. So he desires to not desire to help Jim. Nevertheless, Huck’s compassion for Jim wins out, and he does help Jim, contrary to his second order desire.
+
+It seems like Huck is morally praiseworthy for helping Jim. When he helps Jim, it seems like it is his real, compassionate self shining through the evil, nineteenth century, slaveholding society indoctrination. So it seems like Huck is responsible for what he does. So, arguably, Huck is acting freely when he helps Jim. But that’s not what Frankfurt’s theory says.
+
+### A Question to Ponder
+
+Is the Huck Finn case a decisive counterexample to Frankfurt's theory?
+
+In thinking about this question, you might consider watching [this](https://www.youtube.com/watch?v=rMYdKz4xxMc) video, by Yale philosopher Joshua Knobe.
 
 ----
 
 # 5. Further Resources
 
+- An early version of these lecture notes was published in Spanish as Rayo, A. ‘Viajes a través del tiempo: ¿Qué nos enseña la ciencia ficción acerca del determinismo y el libre albedrío?’, Investigación y Ciencia, October 2009.
+
+- Many of the ideas discussed above were originally set forth by David Lewis, who was a professor of philosophy at Princeton University until his untimely death in 2001. If you’d like to read more about time travel, I recommend his ‘[The Paradoxes of Time Travel](http://www.csus.edu/indiv/m/merlinos/Paradoxes%20of%20Time%20Travel.pdf)’. If you’d like to learn more about determinism and free will, I recommend his ‘[Are We Free to Break the Laws?](http://www.informationphilosopher.com/solutions/philosophers/lewis/Are_we_free_to_break_laws.pdf)’.
+
+- For an excellent online resource on time-travel, check out John Carroll‘s [A Time Travel Website](http://timetravelphilosophy.net/).
+
+- For a fun survey of a lot of the philosophy literature on time travel, see Frank Artzenius’s ‘Time Travel: Double Your Fun’.
+
+- I suggested above that determinism may not be incompatible with free will. Not all philosophers agree with this view, however. See for instance, Peter van Inwagen's ‘[The Incompatibility of Free Will and Determinism](http://timetravelphilosophy.net/)’.
+
+- The Death in Damascus story, in one version or another, has existed for a long time, but it was introduced to the philosophical literature in a paper on decision theory by Allan Gibbard and William Harper called ‘[Counterfactuals and Two Kinds of Expected Utility](http://www.calstatela.edu/sites/default/files/dept/phil/pdf/res/van-inwagen-incompatibilism.pdf)’.
+
+- For a blog devoted to free will, check out [gfp.typepad.com](http://gfp.typepad.com/).
+
+- The problem of finding a sense of ‘possible’ appropriate for action is closely related to the problem of finding a sense of ‘possible’ that gets our judgments about what would would have happened, had things gone differently, right. Our old friend David Lewis tackles this problem in ‘[Counterfactual Dependence and Time's Arrow](http://philosophy.wisc.edu/forster/920/Time%27s%20Arrow,%20Lewis%201979.pdf)’.
+
+- The classic paper in which Frankfurt Cases were introduced is ‘[Alternative Possibilities and Moral Responsibility](http://www.unc.edu/~dfrost/classes/Frankfurt_PAP.pdf)’.
+
+- Frankfurt’s first presentation of his theory of free will is ‘[Freedom of the Will and the Concept of a Person](http://www.sci.brooklyn.cuny.edu/~schopra/Persons/Frankfurt.pdf)’.
+
+- Nomy Arpaly discusses Huck Finn to make points closely related to the one above in her seminal book [*Unprincipled Virtue*](http://www.amazon.com/Unprincipled-Virtue-Inquiry-Moral-Agency/dp/0195179765/ref=sr_1_1?ie=UTF8&qid=1424278365&sr=8-1&keywords=unprincipled+virtue)).
+
+- For full versions of this week’s lectures, see the next units in this subsection.
+
+### [VIDEO: Lecture 2 in Full](https://www.youtube.com/watch?v=9tlmGxmvpjw)
+
+### [VIDEO: Lecture 3 in Full](https://www.youtube.com/watch?v=vFo9FSsKZFA)
+
 ----
 
-# [6. Bonus Section: Meet the Expert]
+# 6. Bonus Section: Meet the Expert
+
+## Bonus: How to Build a Time-Machine
+
+Is it physically possible to build a time-machine? Prof. [Alan Guth](http://web.mit.edu/physics/people/faculty/guth_alan.html) tackles that question in the video below.
+
+### [VIDEO: Alan Guth on Time-Travel](https://www.youtube.com/watch?v=t5AwyxCZIwE)
