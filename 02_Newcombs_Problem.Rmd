@@ -1,0 +1,109 @@
+---
+title: "Topic 2: Newcomb's Problem"
+output:
+  html_document:
+    theme: readable
+    toc: true
+    toc_depth: 4
+---
+
+----
+
+# The Problem
+
+## Newcomb's Problem
+
+Imagine that you are led into a room, and presented with two boxes: a large one and a small one. You know that the small box contains a thousand dollars. You’re not sure what the large one contains, but you know that it either contains a million dollars or is completely empty. 
+
+You are offered two choices:
+
+- One-Box
+    - Keep the contents of the large box, but leave the contents of the small box behind.
+
+- Two-Box
+    - Keep the contents of both boxes.
+
+How should you proceed? Should you one-box or should you two-box?
+
+The answer seems totally obvious. You should take both boxes!
+
+How could you possibly benefit from leaving a thousand dollars behind? Whether or not the large box contains a million dollars, you’ll end up with more money if you take the small box as well!
+
+### The Twist
+
+Wait! There’s a twist… Let me tell you what happened before you entered the room.
+
+A couple of weeks ago, a personality expert was summoned, and was handed as much information about you as could be gathered. The expert was then asked to determine, on the basis of that information, whether you are a one-boxer (i.e. the kind of person who would only take the large box),  or two-boxer (i.e. the kind of person who would take both boxes). If the expert concluded that you are a one-boxer, the large box was filled with a million dollars. If she concluded that you are a two-boxer, the large box was left empty. 
+
+In other words:
+```{r, echo = FALSE}
+r0 <- c("Veredict of Expert", "Contents of Large Box", "Contents of Small Box")
+r1 <- c("You are a One-Boxer", "$1,000,000", "$1,000")
+r2 <- c("You are a Two-Boxer", "$0", "$1,000")
+r <- data.frame(rbind(r1,r2), row.names = NULL)
+colnames(r) <- r0
+r
+```
+
+Both boxes have been sealed since last night, and will remain sealed until you make your decision. So if the large box was filled with a million dollars last night, it will continue to hold a million dollars, regardless of what you decide. And if it was left empty last night, it will remain empty regardless of what you decide.
+
+One final point: the expert is known to be highly reliable. She has participated in many thousands of experiments of this kind, and has made accurate predictions 99% of the time. There is nothing special about your case, so you should think that the expert is 99% likely to correctly predict whether you will one-box or two-box. 
+
+How should you proceed now that you know about the procedure that was used to fill the boxes? Is it still obvious that you should two-box?
+
+(Keep in mind that the expert knows that you’ll be told about how the experiment works, and about how method that was used to decide how to fill the boxes. So she knows that you’ll be engaging in just the kind of reasoning that you are engaging in right now!)
+
+### The Predicament
+
+The fact that the expert is 99% likely to correctly predict whether you will one-box or two-box gives you the following two pieces of information:
+
+1. if you decide to take both boxes, it is almost certain (99%) that the large box will be empty;
+2. if you decide to leave the small box behind, it is almost certain (99%) that the large box will contain a million dollars.
+
+Before learning about the expert, it seemed clear that two-boxing was the right thing to do. But now you know that if you one-box you are almost certain to end up with a million dollars, and that if you two-box you are almost certain to end up with just a thousand. Should you be a one-boxer after all? What to do?
+
+This problem is often referred to as ‘Newcomb’s Problem’ after Lawrence Livermore National Laboratory physicist William Newcomb. It captured the imagination of the philosophical community in the last third of the twentieth century, largely thanks to the writings of Harvard philosopher [Robert Nozick](http://en.wikipedia.org/wiki/Robert_Nozick) and the legendary Scientific American columnist [Martin Gardner](http://en.wikipedia.org/wiki/Martin_Gardner).
+
+### [VIDEO REVIEW: The Problem](https://www.youtube.com/watch?v=txS3km--3q8)
+
+## Could a Newcomb Predictor Really Exist?
+
+When someone is first told about Newcomb’s Problem, they often worry about whether there could really be an expert of the kind the story requires. 
+
+It is certainly *logically possible* for there to be such an expert. Consider, for example, a super-scientist who creates a molecule-by-molecule duplicate of your body, and makes her prediction by exposing the duplicate to the Newcomb setup and observing the results. As long as you and your duplicate are subjected to identical stimuli, the two of you are almost certain to carry out the same reasoning, and reach the same decision. So there is no reason such a predictor couldn’t be 99% reliable, or more.
+
+Of course, none of this shows that perfect (or near-perfect) predictions are possible in practice. But for our purposes it doesn’t matter if the Newcomb scenario could be carried out in practice or not. We will be using the Newcomb scenario as a *thought experiment* to help us understand what rational decision-making is all about. So all we really need is for Newcomb scenarios to be logically possible.
+
+### Exercise
+
+##### Even if real-life predictors are not necessary for our purposes, one might be curious to know whether accurate predictors are possible in practice. Suppose someone happens to have a twin. Maybe one could get somewhat reliable predictions about whether she is a one-boxer or a two-boxer by observing whether her twin one-boxes or two-boxes when presented with a version of the Newcomb experiment. Can you come up with a method that could be used to generate Newcomb predictions in practice, even if the subject doesn't have a twin?
+
+- Here is one possible method. (I’m sure there are many others.) - The predictor asks the subject to participate in a Newcomb scenario and observes the results. The subject is then asked to take an amnesiac drug, and repeats the experiment. For the repeated experiment, the predictor predicts that the subject will make the same decision as before.
+
+----
+
+# Maximizing Expected Value
+
+----
+
+# In Defense of Two-Boxing
+
+----
+
+# 4. The Tickle Defense
+
+----
+
+# 5. Casual Decision Theory
+
+----
+
+# 6. The Prisoner's Dilemma
+
+----
+
+# 7. Further Resources
+
+----
+
+# 8. And One More Thing...
