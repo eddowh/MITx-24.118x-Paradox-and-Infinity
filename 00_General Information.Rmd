@@ -9,15 +9,13 @@ output:
 
 ----
 
-# General Information
+# Introduction
 
-## Introduction
-
-### The edX Platform
+## The edX Platform
 
 Never taken an edX course before? [This](https://www.edx.org/course/demox-edx-demox-1#.VBmi8rywLfF) is a good place to start, if you need some orientation on the basics of edX websites.
 
-### What We'll Cover in This Class
+## What We'll Cover in This Class
 
 *Paradox and Infinity* is an introduction to some of the highlights of the more technical side of philosophy.
 
@@ -38,23 +36,23 @@ We’ll cover nine different topics, which are divided into three modules:
     
 We’ll be releasing a new topic every week. To pass the class, you’ll have to answer a series of problems corresponding to each topic, which will be due two weeks after the topic is released.
 
-### What To Expect
+## What To Expect
 
 The version of *Paradox and Infinity* you will be studying here is not a watered-down version of an MIT class. I’ll be teaching you the same content I teach my undergraduates on campus.
 
 You should therefore expect a hard class. But the material we'll be covering is so outsandingly beautiful that it will reward every ounce of work you put into it.
 
-### [VIDEO: WHAT'S THE DEAL WITH THIS CLASS?](https://www.youtube.com/watch?v=6_IWCcswFII)
+## [VIDEO: WHAT'S THE DEAL WITH THIS CLASS?](https://www.youtube.com/watch?v=6_IWCcswFII)
 
-### How to Use the Material on this Website
+## How to Use the Material on this Website
 
-#### Text
+### Text
 
 Think of this course as the 21st Century version of a textbook.
 
 It has videos and exercises and fun features, but the most important part of the class is the written **text** — i.e., the stuff you can read off the website directly. That’s what you’ll have to focus on if you want to understand the material.
 
-#### Videos
+### Videos
 
 There are two types of videos you can watch:
 
@@ -64,7 +62,7 @@ There are two types of videos you can watch:
 
 You don’t *need* to watch any of these videos to learn the material in this course. Think of the videos as resources that could be used to enhance your 24.118x experience.
 
-#### Exercises
+### Exercises
 
 You'll find problems scattered throughout the course. Most of these problems are **exercises**, and your answers will not count towards your final grade. (Only problems in subsections marked ‘Evaluation’ will count towards your final grade; more about this later!)
 
@@ -74,7 +72,7 @@ Another reason to work on the exercises is that they are good preparation for gr
 
 Some of exercises are quite hard. As I said, don’t stress out about them. We felt free to make them hard because we knew they wouldn’t be graded. We just want you to think about the problem, and then see our answer.
 
-### Optional Material
+## Optional Material
 
 Some sub-subsections of the material are entirely optional. You’ll know when a sub-section is optional because its title will appear in square brackets, [like this].
 
@@ -84,7 +82,7 @@ The optional sub-sections go beyond what is required for a basic understanding o
 
 ----
 
-## How Assessment Works
+# How Assessment Works
 
 There are nine evaluated problem sets in *Paradox and Infinity* — one for each of the nine topics. Each will appear in a sub-section labelled ’Evaluation’, which will be placed the end of the relevant topic.
 
@@ -96,7 +94,7 @@ What you see in an evaluation sub-section will depend on whether you elected to 
 
 ----
 
-## The Discussion Forum
+# The Discussion Forum
 
 You can read and post comments on the discussion forum. Anything you post on the discussion forum will be accessible to your fellow students, and to the 24.118x team. 
 
@@ -130,6 +128,6 @@ Here are some guidelines to help you successfully navigate and interact on the f
     - Avoid repeating letters or characters like this: reeepeeaattingggg chaaracterrrss
     - Avoid excessive punctuation if possible (e.g. !!!!!!!! or ??????)
 
-### Introduce Yourself!
+## Introduce Yourself!
 
 Try out the discussion forum below. Posts made via the portal below will be categorized under the ‘Introductions’ category. Read the posts to find out a little more about your fellow students; tell us all a little about yourself in your own post.
