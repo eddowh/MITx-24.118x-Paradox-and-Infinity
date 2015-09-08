@@ -12,7 +12,7 @@ output:
 
 ----
 
-# The Problem
+# 1. The Problem
 
 ## Newcomb's Problem
 
@@ -85,7 +85,7 @@ Of course, none of this shows that perfect (or near-perfect) predictions are pos
 
 ----
 
-# Maximizing Expected Value
+# 2. Maximizing Expected Value
 
 In the previous section I tried to give you an intuitive sense of why the Newcomb scenario might seem puzzling. Now I will give you some mathematical machinery that will help make the puzzle a little more precise. 
 
