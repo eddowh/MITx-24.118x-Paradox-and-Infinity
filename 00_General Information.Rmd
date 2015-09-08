@@ -1,8 +1,7 @@
 ---
-title: "Course"
+title: "Topic 0: General Introduction"
 output:
     html_document:
-        keep_md: true
         toc: true
         toc_depth: 4
         theme: cerulean
@@ -83,6 +82,8 @@ You will not be evaluated on the material in the optional sub-sections.
 
 The optional sub-sections go beyond what is required for a basic understanding of the material. But if you want a deeper understanding of a topic, the optional sub-sections are for you!
 
+----
+
 ## How Assessment Works
 
 There are nine evaluated problem sets in *Paradox and Infinity* — one for each of the nine topics. Each will appear in a sub-section labelled ’Evaluation’, which will be placed the end of the relevant topic.
@@ -92,6 +93,8 @@ Your final grade will be determined by your answers to these problem sets. Each 
 You will have **exactly one chance** to answer each question in an evaluated problem set. So take your time with each question, and think before you click.
 
 What you see in an evaluation sub-section will depend on whether you elected to have a human TA grade your assignments or not. If you did not, the graded problems will look a lot like the non-graded problems. If you did, then you will see some problems that look like the non-graded problems, and you will also see a link to some problems that require you to write a response, and upload it. (It should be relatively obvious how to do this.) Your response will be graded by a TA, just as it would in the residential version of this course at MIT. The grade assigned by your TA will count towards your final grade, just as every other grade in the evaluations section does.
+
+----
 
 ## The Discussion Forum
 
@@ -130,169 +133,3 @@ Here are some guidelines to help you successfully navigate and interact on the f
 ### Introduce Yourself!
 
 Try out the discussion forum below. Posts made via the portal below will be categorized under the ‘Introductions’ category. Read the posts to find out a little more about your fellow students; tell us all a little about yourself in your own post.
-
-----
-
-# Topic 1: Time Travel and Free Will
-
-## 1. Time Travel
-
-## 2. Free Will
-
-## 3. More on Free Will
-
-## [4. Frankfurt Cases]
-
-## 5. Further Resources
-
-## [6. Bonus Section: Meet the Expert]
-
-----
-
-# Topic 2: Newcomb's Problem
-
-## The Problem
-
-## Maximizing Expected Value
-
-## In Defense of Two-Boxing
-
-## [4. The Tickle Defense]
-
-## 5. Casual Decision Theory
-
-## [6. The Prisoner's Dilemma]
-
-## 7. Further Resources
-
-## 8. And One More Thing...
-
-----
-
-# Topic 3: What is Probability?
-
-## Probability, Subjective and Objective
-
-## Subjective Probability
-
-## [3. The Dutch Book Argument]
-
-## 4. Objective Probability
-
-## [5. Other Theories of Objective Probability]
-
-## 6. The Two-Envelope Paradox
-
-## 7. Further Resources
-
-## [8. Bonus Section: Meet the Expert]
-
-----
-
-# Topic 4: Infinite Cardinalities
-
-## 1. Hilbert's Hotel
-
-## 2. Bijections
-
-## 3. The Rational Numbers
-
-## 4. The REal Numbers
-
-## 5. Cantor's Theorem
-
-## 6. Further Resources
-
-----
-
-# Topic 5: Orderings and Higher Infinite
-
-## 1. Living Large
-
-## 2. Orderings and Well-Orderings
-
-## 3. Order Types
-
-## 4. Ordinals
-
-## 5. Ordinal Arithmetic
-
-## [6. Formal Treatment]
-
-## 7. Back to the Beginning
-
-## 8. Further Resources
-
-----
-
-# Topic 6: Omega-Sequences
-
-## 1. Omega-Sequences
-
-## 2. The Devil's Game
-
-## 3. Yablo's Paradox
-
-## 4. The Hat Problem
-
-## [5. Newtonian Indeterminism]
-
-## 6. Further Resources
-
-## [7. Bonus Section: Meet the Experts]
-
-----
-
-# Topic 7: Non-Measurable Sets
-
-## 1. Measure
-
-## 2. The Vitali Set
-
-## 3. Three Suspects
-
-## 4. Banach-Tarski Theorem Part I: The Cayley Graph
-
-## 5. Banach-Tarski Theorem Part II: How to Duplicate a Sphere
-
-## 6. Further Resources
-
-## 7. And One More Thing...
-
-----
-
-# Topic 8: Computability
-
-## 1. Turing Machines
-
-## Turing Machine Simulator
-
-## 2. Non-Computable Functions
-
-## 3. The Universal Turing Machine
-
-## 4. P = NP ?
-
-## [5. The Big Number Duel]
-
-## 6. Further Resources
-
-## [7. Bonus Section: Meet the Experts]
-
-----
-
-# Topic 9: Gödel's Theorem
-
-## 0. The Theorem
-
-## 1. A Mighty Language
-
-## 2. Describing a Turing Machine in L
-
-## 3. Proof of the Theorem
-
-## 4. A Different Formulation of the Theorem
-
-## 5. Philosophical Significance
-
-## 6. Further Resources
