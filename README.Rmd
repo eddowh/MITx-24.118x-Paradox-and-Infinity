@@ -1,4 +1,11 @@
-# MITx: 24.118x Paradox and Infinity
+---
+title: 'MITx: 24.118x Paradox and Infinity'
+output:
+  html_document:
+    keep_md: yes
+    theme: readable
+  pdf_document: default
+---
 
 ## Disclaimer
 
