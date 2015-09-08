@@ -14,9 +14,122 @@ output:
 
 ## Introduction
 
+### The edX Platform
+
+Never taken an edX course before? [This](https://www.edx.org/course/demox-edx-demox-1#.VBmi8rywLfF) is a good place to start, if you need some orientation on the basics of edX websites.
+
+### What We'll Cover in This Class
+
+*Paradox and Infinity* is an introduction to some of the highlights of the more technical side of philosophy.
+
+We’ll cover nine different topics, which are divided into three modules:
+
+- Module 1: Decision, Action and Rationality
+    - Time Travel and Free Will
+    - Newcomb’s Problem
+    - What is Probability?
+- Module 2: Infinity
+    - Infinite Cardinalities
+    - Orderings and the Higher Infinite
+    - Omega-Sequences
+    - Non-Measurable Sets
+- Module 3: Computability
+    - Computability
+    - Gödel’s Theorem
+    
+We’ll be releasing a new topic every week. To pass the class, you’ll have to answer a series of problems corresponding to each topic, which will be due two weeks after the topic is released.
+
+### What To Expect
+
+The version of *Paradox and Infinity* you will be studying here is not a watered-down version of an MIT class. I’ll be teaching you the same content I teach my undergraduates on campus.
+
+You should therefore expect a hard class. But the material we'll be covering is so outsandingly beautiful that it will reward every ounce of work you put into it.
+
+### [VIDEO: WHAT'S THE DEAL WITH THIS CLASS?](https://www.youtube.com/watch?v=6_IWCcswFII)
+
+### How to Use the Material on this Website
+
+#### Text
+
+Think of this course as the 21st Century version of a textbook.
+
+It has videos and exercises and fun features, but the most important part of the class is the written **text** — i.e., the stuff you can read off the website directly. That’s what you’ll have to focus on if you want to understand the material.
+
+#### Videos
+
+There are two types of videos you can watch:
+
+1. Some videos are segments of lectures from the residential version of the class I teach at MIT. Whenever such a video accompanies text, it covers the same material as the text (though perhaps in a slightly different way). 
+
+2. Some videos are extras. The 24.118x team made them because we think you might find them interesting, or fun. (Sometimes, they are interviews with experts in the field; sometimes they introductions to a topic; sometimes, they are animations made to help explain a point.)
+
+You don’t *need* to watch any of these videos to learn the material in this course. Think of the videos as resources that could be used to enhance your 24.118x experience.
+
+#### Exercises
+
+You'll find problems scattered throughout the course. Most of these problems are **exercises**, and your answers will not count towards your final grade. (Only problems in subsections marked ‘Evaluation’ will count towards your final grade; more about this later!)
+
+You shouldn’t stress about exercises. But you *should* give them a go. Thinking about these problems is an essential part of your learning. Also essential is checking the answer, and reading our explanation. 
+
+Another reason to work on the exercises is that they are good preparation for graded problems.
+
+Some of exercises are quite hard. As I said, don’t stress out about them. We felt free to make them hard because we knew they wouldn’t be graded. We just want you to think about the problem, and then see our answer.
+
+### Optional Material
+
+Some sub-subsections of the material are entirely optional. You’ll know when a sub-section is optional because its title will appear in square brackets, [like this].
+
+You will not be evaluated on the material in the optional sub-sections.
+
+The optional sub-sections go beyond what is required for a basic understanding of the material. But if you want a deeper understanding of a topic, the optional sub-sections are for you!
+
 ## How Assessment Works
 
+There are nine evaluated problem sets in *Paradox and Infinity* — one for each of the nine topics. Each will appear in a sub-section labelled ’Evaluation’, which will be placed the end of the relevant topic.
+
+Your final grade will be determined by your answers to these problem sets. Each problem set will count for a ninth of your final grade.
+
+You will have **exactly one chance** to answer each question in an evaluated problem set. So take your time with each question, and think before you click.
+
+What you see in an evaluation sub-section will depend on whether you elected to have a human TA grade your assignments or not. If you did not, the graded problems will look a lot like the non-graded problems. If you did, then you will see some problems that look like the non-graded problems, and you will also see a link to some problems that require you to write a response, and upload it. (It should be relatively obvious how to do this.) Your response will be graded by a TA, just as it would in the residential version of this course at MIT. The grade assigned by your TA will count towards your final grade, just as every other grade in the evaluations section does.
+
 ## The Discussion Forum
+
+You can read and post comments on the discussion forum. Anything you post on the discussion forum will be accessible to your fellow students, and to the 24.118x team. 
+
+The discussion forum helps improve your ability to search and talk about many different topics throughout the course. We expect that students will use this forum as a supportive learning environment. The forum moderator will monitor the forums regularly.
+
+You can access the discussion forum via the ‘Discussion’ tab, near the top of the screen, and also from within the course material.
+
+If you post from within the course material, your post will automatically be categorized as relating to the topic of the relevant material. The category names make use of the following convention, when referring to a page: [Topic Number].[Sub-section Number].[Unit Number]. So, for instance, ‘3.4.2’ refers to Topic 3, Sub-section 4, Unit 2 (i.e., two pages in on the horizontal bar at the topic of the screen in Sub-section 4).
+
+If you post via the ’Discussion’ tab, you will have some choice as to what category you post under. 
+
+If you have a technical problem with this course, please let us know by posting in the **Technical Issues** category. We will do our best to be in top of technical issues. But please be patient; this is a large enterprise, and we have limited resources.
+
+You can flag posts that you regard as inappropriate (because, for instance, they give away answers to questions, or they are spam, or they are aggresive). Flagging a post will bring it the attention of the forum moderator.
+
+Here are some guidelines to help you successfully navigate and interact on the forum:
+
+- On most pages, there is a link at the bottom which says **‘show discussion’**. Clicking on this link will show all the discussion on the forum associated with this particular topic.
+
+- Be **very specific** about where you need help and with the title of your post. Are you stuck on a particular part of the text, or a particular problem? Do you need help understanding a particular concept?
+
+- Please **do not post solutions** to graded problems. 
+
+- Actively **upvote** other posts, and other students will upvote yours! The more upvotes your posts have, the more likely they are to be seen.
+
+- Use the **search** function. Many of your course classmates are likely to have the same questions. If you perform a search for the question first, you may find the question and answer without needing to post it yourself.
+
+- Use ‘netiquette’ or common writing practices for online communication.
+    - Avoid TYPING IN ALL CAPS. Some people read this as shouting, even if that is not what you mean to convey.
+    - Avoid unnecessary symbols, abbreviated words, texting shorthand, and replacing words with numbers (e.g. Pls don’t rplce wrds w/#s).
+    - Avoid repeating letters or characters like this: reeepeeaattingggg chaaracterrrss
+    - Avoid excessive punctuation if possible (e.g. !!!!!!!! or ??????)
+
+### Introduce Yourself!
+
+Try out the discussion forum below. Posts made via the portal below will be categorized under the ‘Introductions’ category. Read the posts to find out a little more about your fellow students; tell us all a little about yourself in your own post.
 
 ----
 
