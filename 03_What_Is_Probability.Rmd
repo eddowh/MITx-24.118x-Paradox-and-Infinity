@@ -1,0 +1,112 @@
+---
+title: 'Topic 3: What is Probability?'
+output:
+  html_document:
+    theme: readable
+    toc: yes
+    toc_depth: 4
+  pdf_document:
+    toc: yes
+    toc_depth: 4
+---
+
+----
+
+# 1. Probability, Subjective and Objective
+
+## Preface
+
+Welcome to Week 3 of *Paradox and Infinity*!
+
+This week we’re going to talk about the notion of probability. The plan is to try to get clear about what probability is all about.
+
+Towards the end of material, I’ll tell you about a cool puzzle: the Two-Evelope Paradox. Most of the content of this section is fairly theoretical, however. I’ll  introduce you to foundational issues in probability, with no immediate application. It’s interesting stuff, though, so bear with me...
+
+(Next week: Infinity!)
+
+## Probability, Subjective and Objective
+
+We make use of the idea of probability all the time. We feel safe traveling by plane because we believe that the probability of an accident is small; we buy fire insurance because we believe that, although the probability of a fire is small, it is not small enough to be ignored.
+
+But what *is* probability? What does it mean to say, for example:
+
+- The probability that the coin will land Heads is 50%.
+
+It might mean two different things, depending on whether one takes ‘probability’ to mean **subjective probability** or **objective probability**.
+
+### Subjective Probability
+
+Claims about subjective probabilities are claims about someone’s *beliefs*, and, in particular, about the *degree* to which someone believes something.
+
+Accordingly, the claim:
+
+- Smith’s subjective probability that the coin will land Heads is $0.5$.
+
+means something like:
+
+- Smith believes to degree 0.5 that the coin will land Heads.
+
+(I’ll have more to say later about what it means to believe something to a degree.)
+
+### Objective Probability
+
+Claims about objective probability, in contrast, are *not* claims about what someone believes.
+
+When one talks about the objective probability of an event, one is meant to be describing a particular *feature of the world* -- a feature of the world that does not depend on the beliefs of any particular subject. 
+
+Consider, for example, the chemical element Seaborgium. One of its isotopes, $^{265} Sg$, has a half-life of 8.9 seconds. This means that if you take a particle of $^{265} Sg$ and wait 8.9 seconds, the **probability** that it will decay is 50%.
+
+When one speaks of probability in this context one isn’t talking about the subjective credences of any particular subject. One is describing an objective feature of the world itself: the half-life of $^{265} Sg$
+
+### [VIDEO REVIEW: What is Probability?](https://www.youtube.com/watch?v=UqDk1cj4NuU)
+
+## How are Subjective and Objective Probability Related?
+
+There is an important connection between subjective and objective probabilities:
+
+- **The Objective-Subjective Connection (OSC)**  
+The objective probability of an event at time t is the subjective probability that a perfectly rational agent would assign to that event, if she had perfect information about all events before t.
+
+This principle can be used in two different ways: 
+
+- **Subjective → Objective**  
+Start with information about what an agent's subjective probabilities ought to be, and use (OSC) to get information about what the objective probabilities are.
+
+- **Objective → Subjective**  
+Start with information about what the objective probabilities are, and use (OSC) to get information about what an agent’s subjective probabilities ought to be.
+
+To illustrate the first kind of use, suppose that you assign a subjective probability of 50% to the proposition that the coin will land heads.  Suppose, moreover, that you lack no relevant information about the case at hand, and that you’ve made no mistakes in your reasoning. Then your credences are precisely the credences that a perfectly rational agent would have, if she had perfect information. So (OSC) entails that the objective probability that the coin will land heads is 50%.
+
+To illustrate the second kind of use,  suppose you know that $^{265} Sg$ has a half life of 8.9 seconds, and therefore that the objective probability that a particle of $^{265} Sg$ will decay within the next 8.9 seconds is 0.5.  By (OSC), a perfectly rational agent with access to all available evidence would assign subjective probability of 50% to the particle decaying within the next 8.9 seconds. But such an agent is at least as good at assessing evidence as you are (because she is perfectly rational). And (unless you have access to information about the future) she has at least as much evidence as you do (because she has access to all evidence about the past). So you should defer to her judgment, and set your subjective probabilities to 50%.
+
+### [VIDEO REVIEW: The Connection](https://www.youtube.com/watch?v=7WYTvK_dn20)
+
+### Exercise
+
+##### 1. You are about to toss a coin. The coin is fair, so the objective probability that it will land heads is 50%. As I noted above, it follows from (OSC) that if you know the coin is fair, and if you have no information about the future, you should set your subjective probability that the coin will land heads to 50%. Suppose, however, that a trusted time traveler comes back from the future and informs you that the coin will, in fact, land heads the next time it is tossed. What should be your subjective probability that the coin will land heads the next time it is tossed?
+
+- 50%
+- less than 50%
+- more than 50%
+    - As long as you trust the time traveler, you should be confident that the coin will land heads even though the objective probability that it will land heads is only 50%.
+    - The information that the time traveler gave you is information about events that have not yet happened. This means that you have better information than a perfectly rational agent who has perfect information about the past. So you have no reason to defer to the judgment of such an agent. So (OSC) does not entail that your subjective probabilities should agree with the objective probabilities.
+    
+----
+
+# 2. Subjective Probability
+
+----
+
+# 3. The Dutch Book Argument
+
+----
+
+# 4. Objective Probability
+
+----
+
+# 5. Other Theories of Objective Probability
+
+----
+
+# 6. The Two-Envelope Paradox
