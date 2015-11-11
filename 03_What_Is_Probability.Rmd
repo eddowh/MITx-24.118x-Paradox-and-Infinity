@@ -10,7 +10,7 @@ output:
     toc_depth: 4
 ---
 
-----
+\break
 
 # 1. Probability, Subjective and Objective
 
@@ -23,6 +23,8 @@ This week we’re going to talk about the notion of probability. The plan is to 
 Towards the end of material, I’ll tell you about a cool puzzle: the Two-Evelope Paradox. Most of the content of this section is fairly theoretical, however. I’ll  introduce you to foundational issues in probability, with no immediate application. It’s interesting stuff, though, so bear with me...
 
 (Next week: Infinity!)
+
+---
 
 ## Probability, Subjective and Objective
 
@@ -60,6 +62,8 @@ When one speaks of probability in this context one isn’t talking about the sub
 
 ### [VIDEO REVIEW: What is Probability?](https://www.youtube.com/watch?v=UqDk1cj4NuU)
 
+---
+
 ## How are Subjective and Objective Probability Related?
 
 There is an important connection between subjective and objective probabilities:
@@ -91,22 +95,859 @@ To illustrate the second kind of use,  suppose you know that $^{265} Sg$ has a h
     - As long as you trust the time traveler, you should be confident that the coin will land heads even though the objective probability that it will land heads is only 50%.
     - The information that the time traveler gave you is information about events that have not yet happened. This means that you have better information than a perfectly rational agent who has perfect information about the past. So you have no reason to defer to the judgment of such an agent. So (OSC) does not entail that your subjective probabilities should agree with the objective probabilities.
     
-----
+---
+
+\break
 
 # 2. Subjective Probability
 
-----
+## Subjective Probability
+
+In this section I’ll tell you more about the notion of **subjective probability**, and, in particular, about connections between the notion of subjective probability and the notions of **rational action** and **rational belief**.
+
+The central idea behind the notion of subjective probability, recall, is that people can believe things in degrees. In other words: beliefs aren’t just ‘on’ or ‘off’. Instead of just having two possibilities -- believing something or not believing it -- you have a whole range of options: for any real number $r$ between $0$ and $1$, you can believe something to degree $r$.
+
+For instance, you can be completely confident that it will rain, and believe it to degree $1$; you can be somewhat confident, and believe it to degree $0.7$; you can be 50/50, and believe it to degree $0.5$; you can be fairly doubtful, and believe it to degree $0.1$; and so forth.
+
+### Credence
+
+In the philosophical literature, a degree of belief is usually called a **credence**. (So instead of saying that Smith believes that it will rain to degree $0.6$, one says that Smith’s credence that it will rain is $0.6$.)
+
+A natural way of modeling the credences of a subject $S$ is by using a **credence function**, $c_S$. (Here ’$c$’ stands for ’credence’, and the subscript ’$S$’ is added to make clear that the credences we’re talking about belong to $S$.)
+
+The credence function cS is a function that assigns to each proposition a real number between 0 and 1, representing the degree to which S believes that proposition.
+
+So, for instance, $c_S(\text{Will Rain})=1$ means that $S$ is completely certain that it’ll rain, $c_S(\text{Will Rain})=0.5$ means that $S$ is 50/50 about whether it’ll rain, and $c_S(\text{Will Rain})=0$ means that $S$ is completely certain that it won’t rain. 
+
+In general, $c_S(\text{Will Rain})=r$ means that $S$ believes that it’ll rain to degree $r$.
+
+---
+
+## Credence and Rational Action
+
+Credence and Rational Action
+
+Recall the Principle of Expected Value Maximization from Week 2:
+
+- **Principle of Expected Value Maximization**  
+Select the action with the highest expected value.
+
+This principle is embodies a claim about **rational action**: it tells us that a subject acts rationally to the extent that she selects from amongst her choices the action with the highest expected value.
+
+The Principle of Expected Value Maximization presupposes a notion of probability. This is because the expected value of an action is the weighted average of the value of the possible outcomes of that action, with weights given by the *probability* of the outcome given the action.
+
+Which notion of probability does the Principle of Expected Value Maximization presuppose? Is it objective probability? Is it the subjective probability corresponding to some subject or other?
+
+On the most natural way of understanding the Principle, the relevant probability function is the credence function of the subject who is doing the deciding. On this understanding, the Principle gives us a formal version of the following intuitive idea:
+
+- Select the action which -- *according to what you believe* -- is expected to maximize satisfaction of your desires.
+
+In other words: the Principle gives us a conception of **internal** rationality. It tells us that you ought select the action that counts as optimal by *your own lights*.
+
+To illustrate this idea, suppose that a coin has been tossed. You do not know the outcome, so you assign credence $.5$ to its landing Heads, and credence $.5$ to its landing Tails. Should you accept the following bet?
+
+- Heads: You receive $2
+- Tails: You pay $1.
+
+When the Principle of Expected Value Maximization is understood as a principle of internal rationality, the answer is ’yes’. For -- *when we use your credence function (and your assignment of values to outcomes) to calculate expected value* -- the expected value of taking the bet is greater than the expected value of not taking it.
+
+But now suppose that I know the outcome of the coin toss: I know that it landed Tails. Accordingly, I assign very high credence to the proposition that the coin landed Tails and very low credence to the proposition that it landed Heads. Insofar as I have your interests of heart, I will think that you shouldn’t take the bet. For -- *when we use my credence function (but your assignment of values to outcomes) to calculate expected value* -- the expected value of your taking the bet is smaller than the expected value of your not taking it.
+
+*Lesson*: in answering the question of what one ought to do, it is important to know what perspective to take. From your perspective, the Principle of Expected Value Maximization says that you should take the bet; from mine, it says that you should not.
+
+(What would happen if, instead of using the credence function of some subject or other to calculate expected value, we use a function describing the *objective chances*? Then the Principle of Expected Value will capture the perspective of a perfectly rational agent with perfect information about the everything that’s happened in the past.)
+
+### Exercise 
+
+**I hand you three boxes, and tell you that exactly one of them has a prize inside. Then I tell you that, when the boxes were filled, the objective probability that the prize would end up in one of the boxes was exactly the same as the objective probability that it would end up in another.**
+
+**You are asked to choose one of the boxes. You have no idea where the prize is, so you make your selection at random.**
+
+**1. What subjective probability should you assign to the proposition that you picked the box containing the prize?**
+
+- 0
+- 1/3
+    - 1/3. You know that each box had an objective probability of $1/3$ of having the prize put in it, and you have no more relevant information; clearly, you should let the objective probability be your guide here.
+- 1/2
+- 1
+
+\hfill \break
+
+**Once you’ve made your choice — but before you’ve opened the box — I tell you that I know which of the boxes contains the prize. (I looked into the boxes before you walked in.)**
+
+**3. What is my subjective probability that you picked the box with a prize?**
+
+- 0
+- 1/2
+- 1
+- either 0 or 1
+    - It's either close to 0 or close to 1. It's close to 0 if you picked a box other than the one I know the prize is in, and it’s close to 1 if you picked the box I know the prize is in. At this time, my subjective probability is different to yours. That is as it should be; we have different information, so it is rational for us to have different levels of confidence.
+
+\hfill \break
+
+**You still haven’t opened your box. I tell you that I am going to open one of the boxes you didn’t choose and show you that it is empty. (If they are both empty, I will choose between them at random.) I then select one of the unchosen boxes, and show you that it is empty. I now ask you whether you’d rather swap the box you had chosen for the unchosen box that remains closed.**
+
+**After one of the boxes has been revealed as empty, what should your subjective probability be that the box you initially chose contains the prize? What should your subjective probability be that the unchosen box that remains closed contains the prize? Is it in your interests to swap?**
+
+- Swap!  
+Your subjective probability that the box you chose has the prize should be 1/3; your subjective probability that the unseen box has the prize should be 2/3.
+    - Your subjective probability that your box contains the prize should be 1/3. Your subjective probability that the other box contains the prize should be 2/3. So you should think that you would increase your chances of getting the prize by swapping. So you should swap!
+    - Most people find this a very unintuitive result; it is the basis of a famous probability puzzle called ‘The Monty Hall Problem’. There are more and less technical ways to explain why this is the correct answer; let me give you a less technical, more intuitive explanation.
+    - Let's name our boxes ‘A’, ‘B’ and ‘C’. Let’s suppose you picked A, I revealed B to have nothing in it, and C is the remaining box.
+    - Suppose we played this game three million times, and you pick A every time. Each time we play, I use some method that gives each box an objective chance of 1/3 of having the prize. So we would expect about 1/3 of all these games — i.e., about a million of them — to be games in which A contains the prize, about a million in which box B contains the prize, and about a million in which C contains the prize.
+    - In some of these three million games, you see me open box B, revealing there is nothing inside, and in some you don’t. In how many games should you expect me to open B, and reveal that there is nothing in it?
+    - Consider first the games in which the prize is in box A. In those games, both boxes B and C are empty, so in those games I pick which one to open at random, so we would expect about 1/2 — i.e., about 500,000 — of the games in which the prize is in A to be games in which I open up box B and reveal there is nothing inside.
+    - Of the games in which the prize is in box B, how many are games in which I open up box B to reveal there is nothing in it? 0, obviously.
+    - Of the games in which the prize is in box C, how many are games in which I open up B to reveal it has nothing in it? All of them -- i.e. about one million. I can’t open box A, because you’ve picked it, and I can’t open box C, because it contains the prize, so that just leaves box B.
+    - So there’s a total of about 1,500,000 games in which you see me open box B and reveal that there is nothing in it. Of those, about 500,000 are games in which the prize is in box A, and about 1 million are games in which the prize is in box C. That is, of the games in which you see me open box B, and reveal that there is nothing in it, about 1/3 of them are games in which the prize is in box A, and about 2/3 are games in which the prize is in box C.
+    - So if you had to guess which kind of game you were in, on the evidence that I opened up box B and revealed that it had nothing in it, what should you guess? That you are in a prize-in-box-C game.
+
+- Don't Swap!  
+Your subjective probability that the box you chose has the prize should be 2/3; your subjective probability that the unseen box has the prize should be 1/3.
+
+- Doesn't matter!  
+Your subjective probability that the box you chose has the prize should be 1/2; your subjective probability that the unseen box has the prize should be 1/2.
+
+\hfill \break
+
+**4. After one of the boxes has revealed to be empty, what is my subjective probability that the box you chose initially contains the prize?**
+
+- 0
+- 1/2
+- 1
+- either 0 or 1
+    - I don’t learn anything new by opening the box, so my credence that your box contains the prize is still either close to 0 or close to 1. If I know the prize to be in your box, I know it is in your interests to not swap. If I know the prize to be in the unchosen box, I know it is in your interests to swap.
+    - This means that what I figure is in your interests might be different to what you figure is in your interests. What this brings out is that these questions, about what it is in your interest to do, are often asked relative to a certain body of information. Given the information you have available, the prudent thing to do is swap, when you play this game. But given the information I have, maybe the prudent thing to do is not swap.
+    - I have more information than you, so what you should do given my information is more likely to really result in the best outcome. That’s why it would make sense to ask me what to do, if you could.
+
+---
+
+## Credence and Rational Belief
+
+The Principle of Expected Value Maximization is a claim about what it takes to act rationally.
+
+But what about *believing* rationally? What sorts of conditions does a subject’s credence function need to satisfy in order for the subject to count as a fully rational believer?
+
+Some philosophers think you won’t count as a perfectly rational believer unless your credence function is a **probability function.**
+
+### What is a Probability Function?
+
+A credence function is a **probability function** if and only if it satisfies the following two conditions:
+
+- **Necessity**  
+If $A$ is a necessary truth, then $c_S(A)=1$.
+
+- **Additivity**  
+If $A$ and $B$ are incompatible propositions, then $c_S(\text{A or B})=c_S(A)+c_s(B)$.
+
+**Necessity** tells us that a perfectly rational subject is certain about every necessary truth. So, for instance, if $S$ is perfectly rational then $S$’s credence function, $cS$, must be such that $cS(A or not-A)=1$ (because ’$A$ or $\text{not-}A$’ is a necessary truth).
+
+**Additivity** tells us that the degree of belief that a perfectly rational subject assigns to a disjunction -- that is, a statement of the form ’$A$ or $B$’ -- is the degree of belief the subject assigns to $A$ plus the degree of belief the subject assigns to $B$, provided that it is impossible for $A$ and $B$ to be true at the same time. So, for instance, if $S$ is perfectly rational then $S$’s credence function, $c_S$, must be such that $c_S(\textit{It will rain today or It will not rain today}) = c_S(\textit{It will rain today}) + c_S(\textit{It will not rain today})$.
+
+### Exercise
+
+**1. Show that, if the credence function $c_S$ is a probability function, then $c_S(\text{not-A}) = (1-c_S(A))$.**
+
+**(Hint: Apply Condition 1 to the proposition ’$A$ or not-$A$’; then apply Condition 2.)**
+
+Since ’A or not-A’ is a necessary truth, Condition 1 tells us that
+
+$$c_S(\textit{A or not-A})=1$$
+
+Since A and not-A are incompatible with one another, Condition 2 tells us that
+
+$$c_S(\textit{A or not-A})=c_S(A)+c_S(\textit{not-A})$$
+
+Putting the two together:
+
+$$c_S(A)+c_S(\textit{not-A})=1$$
+
+So:
+
+$$c_S(\textit{not-A})=1-c_S(A)$$
+
+\hfill \break
+
+### Countable Additivity
+
+In order for a probability function p to be well-behaved from a mathematical point of view, it must satisfy an infinitary version of Additivity, which says the following: 
+
+- **Countable Additivity**  
+Let $A_1,A_2,A_3,…$ be any propositions, and suppose that $Ai$ and $Aj$ are incompatible whenever $i \neq j$. Then:
+$p(A_1 \text{ or } A_2 \text{ or } A_3 \text{ or } \ldots)=p(A_1)+p(A_2)+p(A_3)+…$
+
+The Principle of Countable Additivity will play an important role when we discuss the Two-Envelope Paradox, below.
+
+I’ll tell you more about why probability functions that fail to satisfy Countable Additivity are so poorly behaved in Week 7, when we talk about non-measurable sets.
+
+### Exercise
+
+**God has selected a number. Your credence that God selected the number $1$ is $1/2$; your credence that She selected the number $2$ is $1/4$; your credence that She selected the number $3$ is $1/8$, and so forth. (In general, your credence that God selected positive natural number $n$ is $1/2^n$.)**
+
+**2. Assuming your credence function satisfies Countable Additivity, what is your credence that God selected some positive natural number or other?**
+
+Say that $G_n$ is the proposition that God selected the number $n$. Then the proposition that God selected some positive natural number or other can be expressed as
+
+$$G_1 \text{ or } G_2 \text{ or } \ldots \text{ or } G_n \text{ or } \ldots$$
+
+But, by Countable Additivity,
+
+$$c_s(G_1 \text{ or } G_2 \text{ or } \ldots)=c_S(G_1)+c_S(G_2)+…+c_s(G_n)+…=1/2+1/4+…+1/2^n+…=1$$
+
+(If you'd like to know more about why $1/2+1/4+…+1/2^n+…=1$ is true, see [here](https://en.wikipedia.org/wiki/Convergent_series).)
+
+---
+
+## The Principle of Indifference
+
+We have considered one constraint on rational belief: that one’s credence function be a probability function. But that leaves a lot of leeway. There are all sorts of completely crazy credences that are probability functions. Can we come up with any further constraints on rational belief?
+
+An important candidate for a further constraint is called the **Principle of Indifference**. The basic idea is very simple. When we have a bunch of propositions, and exactly one of them is true, and we have no more reason to believe one than another, we should assign them equal credence.
+
+Suppose, for example, that we have a coin, and we have no more reason to believe that it will land Heads than that it will land Tails, or vice-versa. According to the Principle of Indifference, we should divide our credence equally, and give both the proposition that the coin will land Heads and the proposition that it will land Tails credence $0.5$.
+
+### Exercise
+
+**Suppose you are told that God has picked a real number, and that you have no more reason for thinking that She picked one number than you have for thinking that She picked any other.**
+
+**1. According to the Principle of Indifference, what credence should you give to the proposition that God picked the number $\pi$?**
+
+**(Assume that your credence function is a probability function, and remember that a credence is always a real number between $0$ and $1$.)**
+
+`0`
+
+If your credence function is a probability function, the Principle of Indifference can be used to argue that your credence must be 0.
+
+Here's how. Since you have no more reason for thinking that God picked $\pi$ than you have for thinking that God picked any other number, the Principle of Indifference tells you that you must assign the same credence to the proposition that God picked $\pi$ and the proposition that God picked $x$, for any other real number $x$.
+
+But, since there are infinitely many real numbers, this means that you must assign credence 0 to every proposition of the form "God picked $x$". To see this, note that it follows from the assumption that your credence function is a probability function that, for any real numbers $x_1,x_2,…,x_n$, your credence in "God picked $x_1$ or $x_2$ or $…$ or $x_n$" equals your credence in "God picked $x_1$" plus your credence in "God picked $x_2$" ... plus your credence in "God picked $x_n$". So if your credence in propositions of the form "God picked $x$" is bigger than zero, your credence in "God picked $x_1$ or $x_2$ or $…$ or $x_n$" will be greater than 1 for big enough $n$. And if your credence function is a probability function, no credence can be greater than 1.
+
+### The Bad News
+
+Unfortunately, it is not clear that the Principle of Indifference is consistent. Imagine a cube factory. We know that the factory produces cubes with a side-length of less than 1 meter, but we haven’t the slightest idea how the cube sizes are chosen. What is the probability that the next cube produced will have a side-length of less than half a meter?
+
+Here is an argument based on the Principle of Indifference. Since the distance between 0 and 1/2 is the same as the distance between 1/2 and 1, our reasons for thinking that the factory will produce a cube with a side-length of less than half a meter are exactly analogous to our reasons for thinking that the factory will produce a cube with a side-length of more than half a meter but less than a meter. So it follows from The Principle of Indifference that our subjective probability should be 50% that the next cube produced will have a side-length of less than half a meter, and that our subjective probability should be 50% that the next cube will have a side-length greater than half a meter but smaller than a meter. (We ignore the possibility that the factory will next produce a cube whose side-length is exactly half a meter. This is because there is a zero probability that the factory will next produce a cube whose side-length is exactly half a meter. To see why, take a look at the exercise just above, and think about how this case is analogous.)
+
+So far, so good. The bad news is that the Principle of Indifference delivers a different conclusion when we focus on volume rather than side-length.
+
+As before, start with the observation that the distance between 0 and 1/2 is the same as the distance between 1/2 and 1. Accordingly, our reasons for thinking that the factory will next produce a cube with a volume of less than half a cubic meter are exactly analogous to our reasons for thinking that the factory will next produce a cube with a volume of more than half a cubic meter. So it follows from the Principle of Indifference that we should be 50% confident that the next next cube produced will have a volume of less than half a cubic meter, and 50% confident that the next cube will have a volume greater than half a cubic meter.
+
+The problem, of course, is that cubes with a side-length of half a meter do not have a volume of half a cubic meter, but a volume of  1/8 cubic meters. Accordingly, cubes with a side-length of less than half a meter are only a fraction of the cubes whose volume is less than half a cubic meter. So if we are 50% confident that the next cube will have a volume of less than half a cubic meter, then we should be *less* than 50% confident that the next cube will have a side-length of of less than half a meter, which contradicts our first result.
+
+Perhaps there is a version of the Principle of Indifference that allows us to avoid this kind of problem. It is an ongoing project for some philosophers to try to find such a version; so far nobody has been able to formulate one that seems very convincing.
+
+### [VIDEO REVIEW: The Principle of Indifference](https://www.youtube.com/watch?v=tT_tywP4JUg)
+
+---
+
+\break
 
 # 3. The Dutch Book Argument
 
-----
+## Advanced Topic [Optional]
+
+When philosophers first proposed understanding probabilities as degrees of belief, some people wondered: why should degrees of belief be constrained in the way probabilities are? Why, for instance, can't my degree of belief that it is going to rain be 0.7, but my degree of belief that it is not going to rain be 0.8? What's wrong with that?
+
+The response was the Dutch Book Argument. It is an argument that aims to show that, if you are rational, then your credence function must be a probability function. 
+
+---
+
+## Probability Functions
+
+The goal of the Dutch Book Argument is to show that if an agent is rational, her credences will form a probability function. But what is a probability function? We can be more or less technical about it. I gave you a pretty non-technical explanation earlier; it will be helpful here to get just slightly more technical.
+
+The *domain* of a function is the set of all of the things that the function can take as an input. The domain of a probability function is the set of all propositions, which are things that can be true or false. Propositions form a Boolean algebra. That means that, for every proposition $p$, there is a contradictory proposition $\neg p$ (read 'not $p$') that is true if and only if $p$ isn't; and for every pair of propositions $p, q$, there is a proposition $p \lor q$ (read '$p$ or $q$') that is true if and only if either $p$ is true or $$ is true (or both).
+
+The *range* of a function is the set of all things that the function can deliver as output. The range of a probability function is the real interval [0,1], which is the set of real numbers between 0 and 1, including 0 and 1 themselves.
+
+Now, credence functions also have the set of all propositions as their domain and [0, 1] as their range. What makes a credence function $C$ a probability function is that it obeys two further conditions:
+
+1. if a proposition p is necessary - that is, there is no possible way for things to be such that it is false - then $C(p)=1$, and
+
+2. if two propositions p, q, are mutually exclusive - that is, there is no possible way for things to be such that they are both true - then $C(p \lor q)=C(p)+C(q)$.
+
+That's all it takes for a credence function to be a probability function. All the standard rules about probability with which you might be familiar follow from this. In the exercises below, I'll ask you to prove that for a few of the more familiar rules. That's not the kind of thing you're going to be able to do if you've never dealt with a Boolean algebra before. Don't worry about it if it's not clear how to do the exercises; just take a look at the answers.
+
+
+### Exercise
+
+**1. Prove that any credence function $C$ that meets the criteria listed above will be such that $C(\neg p)=1 - C(p)$, for all $p$.**
+
+- $p$ and $\neg p$ are mutually exclusive. So  
+$$ \text{(1)  } C(p \lor \neg p) = C(p) + C(\neg p) $$  
+$p \lor \neg p$ is necessary. So  
+$$ \text{(2)  } C(p \lor \neg p) = 1 $$  
+Substituting (2) into (1) and rearranging we get  
+$$ C(\neg p) = 1 - C(p) $$
+
+\hfill \break
+
+
+**2. Let $p \land q$ (read '$p$ and $q$') be the proposition that is true iff both p and q are true. Prove that any credence function that meets the criteria listed above will be such that, for all propositions $p,q, C(p \lor q)=C(p)+C(q)-C(p \land q)$.**
+
+
+- This is quite tricky.  
+$p \land q$ is the same proposition as $p \lor (\neg p \land q)$(i.e., the proposition that is true when either $p$  is true or both $\neg p$ and $q$ are true). So  
+$$\text{(1)  } C(p \lor q) = C(p \lor (\neg p \land q))$$  
+$p$ and $\neg p \land q$ are mutually exclusive. So  
+$$\text{(2)  } C(p \lor (\neg p \land q)) = C(p) + C(\neg p \land p)$$  
+Now, $q$ is the same proposition as $(p \land q) \lor (\neg p \land q)$ and $p \land q$ and $\neg p \land q$ are mutually exclusive, so  
+$$C(q) = C((p \land q) \lor (\neg p \land q))$$
+$$=C(p \land q) + C(\neg p \land q)$$  
+which implies that  
+$$\text{(3)  } C(\neg p \land q) = C(q) - C(p \land q)$$  
+Substituting (3) into (2), and then (2) into (1), yields the desired reslt:
+$$C(p \lor q) = C(p) + C(q) - C(p \land q)$$
+
+---
+
+## Betting Behavior
+
+The idea behind the Dutch Book argument is this: if an agent's credence function is not a probability function, then she is exploitable in a predictable way - a way that shows that there is something wrong with her credence function. The argument is called the 'Dutch Book' argument because, apparently, 'Dutch Book' is a term for an arrangement of bets in which the bookie is sure to win, and the bettor is sure to lose, no matter what happens (apologies to the Dutch if this is a slander on your good name). What the arguments show is that an agent is exploitable by a Dutch Book if her credences are not a probability function.
+
+But for this argument to work, we need to make some assumptions about how an agent's credences relate to her behavior.
+
+The assumption we make is this: if an agent has a credence x in a proposition p,  then she will be willing to buy a bet where she wins $\$S$ if is true, and nothing otherwise, for anything less than $x \times \$S$; and she will be willing to sell a bet where she has to pay $\$S$ if $p$ is true, and nothing otherwise, for anything more than $x \times \$S$. Moreover, she is willing to go either way - either buy or sell - such a bet for exactly $x \times \$S$.
+
+In table form, when an agent buys a bet, the payoffs are as follows:
+```{r, echo = FALSE, warning = FALSE}
+library(knitr)
+table <- data.frame(rbind(                          c("True", "$S - x\\$S$"),
+                                                    c("False", "$-x\\$S$")))
+names(table) <- c("Truth value of $p$", "Net Payoff")
+kable(table, align = "c")
+```
+
+...and when she **sells** a bet, the payoffs are as follows:
+
+```{r, echo = FALSE, warning = FALSE}
+library(knitr)
+table <- data.frame(rbind(                          c("True", "$x\\$S - \\$S$"),
+                                                    c("False", "$x\\$S$")))
+names(table) <- c("Truth value of $p$", "Net Payoff")
+kable(table, align = "c")
+```
+
+## Dutch Book 1
+
+Recall that for an agent's credence function to be a probability function, she must have credence 1 in all necessarily true propositions. In this section we show that an agent must have credence 1 in a necessarily true proposition in order to avoid being Dutch-booked.
+
+Suppose we offer to buy the following bet from an agent: you pay me $\$1$ if a necessary proposition $p$, is true, and nothing otherwise. If the agent has credence $x$ in $p$, then, by the above assumptions concerning betting behaviour, she will be willing to sell this bet for $x \times \$1$. So her net payoffs are as follows:
+
+```{r, echo = FALSE, warning = FALSE}
+library(knitr)
+table <- data.frame(rbind(                          c("True", "$x \\times \\$1 - \\$1 = \\$(x-1)$"),
+                                                    c("False", "$x \\times \\$ 1$")))
+names(table) <- c("Truth value of $p$", "Net Payoff")
+kable(table, align = "c")
+```
+
+Because $p$ is necessary, we can ignore the last row, as it cannot occur; every possible situation is a situation in which $p$ is true. So whatever happens, the agent is going to get a net payoff of $\$(x-1)$. So the only way the agent can avoid losing money is by having a credence of 1 in $p$; if she has anything less, she will predictably lose money by taking this bet. So it is only agents with credence 1 in necessary propositions that can avoid being exploited in this way.
+
+---
+
+## Dutch Book 2
+
+Now to show that an agent must have credence $C(p \lor q) = C(p) + C(q)$ when $p, q$ are mutually exclusive, in order to not be Dutch-book-able. This one is more complicated.
+
+Suppose $p$ and $q$ are mutually exclusive. Consider the following series of bets:
+
+- Bet 1: get $1 if $p$ is true, nothing otherwise.
+- Bet 2: get $1 if $q$ is true, nothing otherwise.
+- Bet 3: get $1 if $p \lor q$ is true, nothing otherwise.
+
+Now, suppose the agent has credence $x$ in $p$, credence $y$ in $q$, and credence $z$ in $p \lor q$. And suppose we offer her the following deals: we will sell her Bet 1 for $\$x$, we will sell her Bet 2 for $\$y$, and we will buy Bet 3 from her for $\$z$. She will accept these bets, by the above assumptions about betting behavior. Her possible payoffs will be as follows:
+
+```{r, echo = FALSE, warning = FALSE}
+library(knitr)
+table <- data.frame(rbind(c("True", "True", "$(\\$1 - \\$x) + (\\$1 - \\$y) + (-\\$1 + \\$z) = \\$(1-x-y+z)$"),
+                          c("True", "False", "$(\\$1 - \\$x) + (-\\$y) + (-\\$1 + \\$z) = \\$(-x-y+z)$"),
+                          c("False", "True", "$(-\\$x) + (\\$1 - \\$y) + (-\\$1 + \\$z) = \\$(-x-y+z)$"),
+                          c("False", "False", "$(-\\$x) + (-\\$y) + (-\\$z) = \\$(-x-y+z)$")))
+names(table) <- c("Truth value of $p$", "Truth value of $q$", "Net Payoff")
+kable(table, align = "c")
+```
+
+Since $p$ and $q$ are mutually exclusive, we can ignore the top row; the only possible outcomes are the last three rows. So no matter what happens, the agent is going to get $\$(-x-y+z)$. So if $z<x+y$, the agent is sure to lose money, no matter what.
+
+What this shows is that $z$ must be greater than or equal to $x+y$ for the agent to not be predictably exploitable. But a very similar argument show that $z$ must be *less than or equal* to $x+y$ for the agent to not be predictably exploitable; instead of offering to sell the agent the first two bets, you offer to buy them, and instead of offering to buy the last bet, you offer to sell it.
+
+So the only way for an agent to not be exploitable by some Dutch Book is for her $z$ to equal her $x$ plus her $y-$ i.e., it is for her to meet the second of the conditions on credence functions which make them probability functions.
+
+---
+
+## Summary
+
+The last two results together imply that only agents whose credence functions are probability functions are not exploitable by Dutch Books. And this is commonly thought to show that all rational agents have credence functions that are probability functions. How *exactly* it shows that is actually a little mysterious; there is a lot of recent work on trying to make the connection between Dutch-Book-ability and irrationality clearer. But most philosophers agree that the Dutch Book argument shows *something* important about credence functions.
+
+### Exercises
+
+**1. Show that an agent with credence $x$ in $p$ and $y$ in $\neg p$ is Dutch-book-able if $x$ does not equal $1???x$**
+
+COnsider the following bets:
+
+- Bet 1: get $1 if $p$ is true, nothing otherwise
+- Bet 2: get $1 if $\neg p$ is true, nothing otherwise
+
+Suppose we offer to buy Bet 1 from the agent for $\$x$, and buy Bet 2 from her for $\$y$. Exactly one of $p$ and $\neg p$ are true, so the agent's potential payoffs are as follows:
+
+```{r, echo = FALSE, warning = FALSE}
+library(knitr)
+table <- data.frame(rbind(c("True", "False", "$(\\$x - \\$1) + \\$y = \\$(x+y-1)$"),
+                          c("False", "True", "$\\$x + (\\$y - \\$1) = \\$(x+y-1)$")))
+names(table) <- c("Truth value of $p$", "Truth value of $q$", "Net Payoff")
+kable(table, align = "c")
+```
+
+So whatever happens, the agent's payoff is $\$(x+y???1)$. So the agent only avoids a Dutch Book here if $x+y \geq 1$.
+
+A very similar argument shows that the agent avoids being Dutch-book-able only if $x+y \leq 1$ --- you just offer to sell her bets 1 and 2 rather than buy them.
+
+So if it's not the case that $x+y=1$ --- i.e., it is not the case that $y=1-x$, then the agent is Dutch-book-able.
+
+---
+
+\break 
 
 # 4. Objective Probability
 
-----
+Recall our earlier discussion of Seaborgium. One of its isotopes,  $^{265} Sg$, has a half-life of 8.9 seconds. That means that is you take a particle of $^{265} Sg$ and wait 8.9 seconds, the probability that it will decay is 50%.
+
+When one speaks of probability in this context, one isn't talking about the subjective credences of any particular subject. On the face of it, one is talking about **objective probability**: when we say that $^{265} Sg$ has a half-life of 8.9 seconds, we are describing a feature of the world itself, rather than a feature of anyone's psychology.
+
+But what are objective probabilities? That's the question will discuss in this section.
+
+(A note about terminology: philosophers sometimes refer to objective probability as 'objective chance' (or simply 'chance'). I will occasionally follow that practice below.)
+
+---
+
+## Frequentism
+
+Here is an oldschool theory of objective probability.  According to **frequentism**, what it means for a particle of $^{265} Sg$ to have a 50% probability of decaying within the next 8.9 seconds is for the *frequency* of decay to be 50%. In other words, it means that 50% of all particles of $^{265} Sg$ will decay within the next 8.9 seconds.
+
+Unfortunately, this theory cannot be correct. Imagine a situation in which only one coin was ever minted. We flip it three times, and get Heads, Heads, Tails. Then we destroy it. What was the chance that the coin would land Heads on any one of these flips? Surely, it was 50%. But frequentism entails the mistaken conclusion that the probability was 2/3.
+
+A slight improvement on straight frequentism is what is called 'hypothetical frequentism'. The idea is this: had the coin been tossed a sufficient number of times, it would have landed Heads 50% of the time (set aside the question of how many tosses is 'sufficient').
+
+Unfortunately, hypothetical frequentism can't be right either. The problem is that it is perfectly possible for a fair coin - a coin with a 50% chance of landing Heads - to land Tails on every single toss. Such an outcome would be extremely unlikely, to be sure. But it is certainly possible; that just follows from the fact that the coin has a 50% chance of landing Heads on any given toss.
+
+(Wait! What if we live in a deterministic world? Wouldn't the objective probability of heads be 0 or 1, depending on the outcome of the coin toss? Yes. But we can make our point by considering a slight variant of the example. Think of a 'coin toss' as the result of taking a particle of $^{265} Sg$ and waiting 8.9 seconds. If the particle decays, we will say that the 'coin' landed Heads; otherwise we will say that it landed Tails.)
+
+### [VIDEO REVIEW: Frequentism](https://www.youtube.com/watch?v=T5_5rpWhZMU)
+
+### Exercises
+
+**1. If you toss a fair coin $n$ times, what is the objective probability that it will land Heads on every single toss (in terms of $n$)?**
+
+**2. Suppose you toss a fair coin infinitely many times. What is the objective probability that it lands heads every single time?**
+
+`0`
+
+**Is it possible to get an uninterrupted sequence of inifinitely many heads (assuming you can, in fact, toss a coin infintely many times)?**
+
+- If the probability of getting heads every time is a real number, then that real number must be 0. For, as we noted in the previous exercise, the probability of getting an uninterrupted sequence of $n$ heads is $(1/2)^n$. So the probability of getting an uninterrupted sequence of infinitely many heads must be smaller than $(1/2)^n$ for every finite $n$. And the only real number satisfying that condition is 0.  
+That does not mean, however, that getting an uninterrupted sequence of heads is impossible. If it is possible to flip a coin infintely many times at all, it is possible to get heads every time. The probability of any outcome after an infinte number of tosses is 0, but you have to get some outcome or other. So 0 probability is not the same as impossiblity! It just means that the probability is so small that every positive real number is too big to measure it.
+
+---
+
+## The Law of Large Numbers
+
+Even if a coin is fair, there is no guarantee that it will land Heads 50% of the time. But a weaker statement is true. It is true that, if the coin were tossed a sufficiently large number of times, it would, *with very high probability*, land Heads approximately 50% of the time.
+
+A rigorous version of this principle is known as the Law of Large Numbers, and is a theorem of probability theory. It is because of this law that casino owners can feel confident that they will, in the long run, make a profit. A particular table, or a particular slot machine, will have bad nights now and again. But as long as the casino is visited by enough players over a sufficiently lengthy period of time, it is extremely probable that the casino's gains will outweigh its losses.
+
+The Law of Large Numbers tells us what frequentism got right, which is that observed frequencies are a pretty good guide to probabilities. A good way to find out the probability that a coin will land Heads is to toss it a bunch of times.
+
+But the Law of Large Numbers also tells us what frequentism got wrong. Frequencies are not necessarily a *perfect* guide to probabilities. The Law tells us that if the objective probability of a coin landing Heads is 50%, then it is **very probable** that the coin will, in the long run, land Heads approximately 50% of the time. But that means it is **possible** that it won't. And if frequencies aren't even a perfect *guide* to probabilities, they certainly aren't *identical* to probabilities.
+
+### [VIDEO REVIEW: The Law of Large Numbers](https://www.youtube.com/watch?v=8c9KFMHS5DU)
+
+### A More Precise Statement
+
+That was an intuitive gloss on the Law of Large Numbers. Here is a more precise statement:
+
+> Suppose that events of type $T$ have a probability of p of resulting in outcome $O$. Then, for any real numbers $\epsilon$ and $\delta$ that are both larger than zero, there is an N such that the following will be true with a probability of at least $1 - \epsilon$:
+
+  > If $M>N$ events of type $T$ occur, the proportion of them that result in outcome $O$ will be $p \pm \delta$ ('$\pm$' means 'plus or minus').
+
+And this holds no matter how small $\epsilon$ and $\delta$ are! If you'd like an explanation of why The Law of Large Numbers is true, check out [this video](https://www.khanacademy.org/video/law-of-large-numbers) at the Khan Academy.
+
+### Exercise
+
+**1. There is a casino with many slot machines. Each time a customer uses one of the slot machines, the casino has a 49% chance of losing a dollar and a 51% chance of winning a dollar.Use the Law of Large  Numbers to show that, if the casino has enough customers at the slot machines, it is at least 99.99% likely to end up with a profit.**
+
+Set $\epsilon = 0.0001$. Set $\delta$ to be some number smaller than 0.01; say $\delta=.005$. It follows from the Law of Large Numbers that there is an $N$ such that the following will true with probability of at least $1???\epsilon = 0.9999$:
+
+If the slot machines are used $M>N$ times, the proportion of them that result in a win for the casino will be $0.51 \pm 0.005$.
+
+So, if the machine is played $N$ times, there is probability 0.9999, that, at worst, the casino wins $50.5\%$ of the time, and therefore ends up with a profit.
+
+---
+
+## Simplicity and Strength
+
+Here is a different account of what objective probabilities are: they are a way of reaching the best balance of simplicity and strength in our theory of the world. Let me explain.
+
+We want our theories to be **strong**; in other words: we want them to provide us with as much information as possible. We also want them to be **simple**; in other words: we want the information to be articulated briefly and systematically.
+
+A theory that consisted of a huge list detailing what happens in every corner of the universe at every time would be extraordinarily strong, but it wouldn't be simple. In contrast, a theory whose only principle was '2 + 2 = 4' would be extraordinarily simple, but wouldn't be very strong.
+
+Good theories strike a balance between simplicity and strength. They allow us to derive a lot of information from simple principles. 
+
+The notion of objective prbability can be used to help achieve such a balance. Suppose, for example, that someone flips a coin and that we want to predict the outcome. We could try to come up with a definite prediction by using classical mechanics. In order to do so, we would need precise measurements of all forces acting on the coin, and we would need to perform a complex calculation. Although it is in principle possible to do so, it would exceedingly difficult in practice. We don't usually have the needed measurements at hand. (And, even if we did, classical mechanics is not strictly correct, so there would still be a chance that we wouldn't get the right results.)
+
+An alternative is to use a probabilistic theory, which simply states that the objective probability that the coin lands Heads is 50%. Such a theory is not particularly strong. But it is simple enough to be put into practice without specialized measuring equipment or sophisticated computational capabilities.
+
+Because a probabilistic theory does not tell us conclusively how the coin will land, it is of limited utility. But it is certainly not useless. It can be used to conclude, for example, that it would be a good idea to accept a bet whereby you win two dollars if the coin lands Heads and lose one dollar if the coin lands Tails. And it might give you enough information to set up a successful casino.
+
+How could one determine if a probabilistic theory is true? Suppose someone flips a coin 100,000 times, and gets Heads 31% of the time. The Law of Large Numbers tells us that this would extremely unlikely to happen if the probability of Heads were 50%. So it gives us good reasons to reject a probabilistic theory according to which the coin has a 50% chance of landing Heads. If, on the other hand, we observed that 50.023% of the coin landed Heads, we would have little reason to doubt the accuracy of the theory.
+
+Say that a **best theory** for a particular phenomenon is a description of the phenomenon that satisfies two conditions: (1) the description is accurate, and (2) the description delivers an optimal combination of simplicity and strength.
+
+Some philosophers think that the notion of a best theory is key to understanding the notion of objective probability. They think, for example, that all it takes for the objective probability of a quantum event to be $p$ is for our best theory of quantum phenomena to tell us that the objective probability of the event is $p$. In general, they think that what it is for the objective probability of event $E$ to be $p$ is simply for the best theory of the relevant phenomenon to tell us that the objective probability of $E$ is $p$.
+
+### [VIDEO REVIEW: Simplicity and Strength](https://www.youtube.com/watch?v=RpOx_qOBK0Y)
+
+---
+
+\break
 
 # 5. Other Theories of Objective Probability
 
-----
+## Objective Probability in Non-Humean Laws
+
+A **dynamical law** is a law that says what will happen in the future, given how things are at a particular time. A dynamical law is **deterministic** if it specifies a unique state that the universe will be in at any future time, given how things are at a particular time. Newtonian Mechanics and General Relativity involve deterministic laws, in this sense.
+
+Let a dynamical law be **indeterministic** if, instead of specifying a unique future state, it instead lists a bunch of possible future states, and specifies the *objective probability* that the universe will be in each of them. Quantum mechanics, as it is usually interpreted, involves dynamical laws of exactly this kind.
+
+One way of understanding what it is for there to exist (non-trivial) objective probabilities is for the fundamental dynamical laws to be indeterministic in this sense.
+
+We considered one version of this idea above, when we noted that someone might think that for an event to have objective probability $x$ is for our best theory of the relevant phenomenon to assign it an objective probability of $x$. There are, however, different ways of thinking about laws. And just what one ends up thinking about objective probability will depend on how one thinks about the laws. In particular, it will depend on whether one is a 'Humean' or an 'Anti-Humean' about laws. (The name honors [David Hume](http://en.wikipedia.org/wiki/David_Hume), one of the greatest philosophers of all time.)
+
+Humeanism is the view that a law is nothing more than a convenient description of all the little, local facts about how things are at each point in space-time. All it takes for the universe to obey a law is for its space-time points to satisfy local conditions of the right kind. So, in particular, if you have two different sets of laws that predict all the right things about what is going on locally at each space-time point, then there is no real question as to which laws the world *really* follows; the choice between these two sets of laws is purely conventional.
+
+Anti-Humeanism, on the other hand, is the view that that is not so. The question of which laws are obeyed by the universe cannot be reduced to the question of what each space-time point is like, locally speaking.
+
+The 'best theory' way of understanding objective probability that we considered earlier is the Humean way. If you are a Humean, and you think that there are objective probabilities in the fundamental dynamical laws, what you think is that there is a convenient (because simple and strong) way of capturing a lot of information about what is going on at all the space-time points that uses probabilities. But you will also think there are other sets of principles that could be used to describe what space-time points are like locally, and that *don't* use probabilities at all - though, of course, this deterministic set of principles would be less convenient to use, because it is less simple or less strong (or both).
+
+For the Humean, there is a sense in which it is not a very big deal that the world obeys indeterministic laws rather than deterministic ones. The world 'obeys' both deterministic and indeterminstic laws, in so far as it obeys anything; it's just that the indeterministic laws provide a better way of *describing* the world then the deterministic laws.
+
+On the other hand, the determinism or non-determinism of the laws *is* a big deal for the Anti-Humean. If the world is indeterministic, it has nothing to do with the way we describe things, according to the Anti-Humean; it is a fundamental fact about the nature of the universe.
+
+The Anti-Humean may not have much to say about the nature of objective probability. It's not something that can be defined in more fundamental terms, according to her. So if you feel like you need such a definition to be convinced that objective probabilities make sense, then this way of believing in objective probabilities is not for you. But the Anti-Humean will say: "In so far as you can understand quantum mechanics, on the usual interpretation, you can understand the objective probabilities I'm talking about. My kind of objective probabilities are just part of modern physics."
+
+---
+
+## Probability Measures Over Initial Conditions
+
+There is a third way of understanding objective probabilities; unlike the other two, it is completely compatible with determinism. It doesn't put the probabilities in the dynamical laws of the universe. Instead, the claim is that there are objective probabilities for how the universe starts.
+
+On this way of thinking, what makes it true that there is an objective probability of 50% that the coin land Heads is that there is a 50% probability of the universe having initial conditions that lead to a situation in which the coin lands Heads. (Actually, that's far too simple. The real account is something like this: that for all of a *certain special subset* of initial conditions - all the ones that lead to a universe that looks a lot like this one up to this particular time, maybe - 50% of them lead to a situation in which the coin lands heads.)
+
+This way of understanding objective probabilities is more or less the way they are understood in statistical mechanics. It is also more or less the way probabilities are understood on the Bohmian interpretation of quantum mechanics, according to which the dynamical laws are deterministic after all, despite appearances to the contrary.
+
+Now, there are a lot of different ways of assigning probabilities to initial conditions. Which one is the right one? There are two broad ideas concerning this. One is that the right probability measure is something we should be able to know *a priori*, perhaps by appealing to certain symmetry principles. Another is that the right objective probability measure is discoverable empirically. In fact, you might think that the success of statistical mechanics is empirical validation of the particular probability measure that gets used in statistical mechanics. Maybe the statistical-mechanics probability measure is the right probability measure over initial conditions.
+
+---
+
+\break
 
 # 6. The Two-Envelope Paradox
+
+## Two Envelopes
+
+"Free Money!" says a sign that has suddenly appeared by the main square. Next to the sign stands small man in a white suit, and next to the man is a table, on which two envelopes have been placed.
+
+"This must be a joke!" you think to yourself as you walk by. "Who could possibly be giving out free money?" A few days later, however, one of your friends informs you that the sign is for real. The small man in the white suit came from out of town, and he is actually giving out free money.
+
+"There must be some kind of catch!" you think. "How does it work?" you ask your friend.
+
+"It's very simple," your friend explains. "The man has placed a check in each envelope. We don't know how much money the checks are made out for -- it's different each day. But we do know about the method that the man uses to fill out the checks. The first check is made out for $n$ dollars, where $$ is a natural number chosen at random. The second check is made out for $2n$ dollars. Unfortunately, you won't know which of the two checks has the larger amount and which one has the smaller one."
+
+"That's it?" you ask, incredulous. "That's it!" your friend replies. "All you need to do is pick one of the envelopes, and you'll get to keep the check. I played the game last week, and I ended up with a check for $1,834,288. I took it to the bank, and cashed it without a hitch. Now I'm considering a beach house. It's a shame the man won't let you play more than once!"
+
+Unable to help yourself any longer, you decide to pay a visit to the man in the white suit.
+
+"Welcome!" the man says, with a big smile. "Select one of these envelopes, and its contents will be yours." After a moment's hesitation, you reach for the envelope on the left. How wonderful it would be to have your very own beach house!
+
+"Incidentally," says the man, before you've had a chance to open your envelope, "are you interested in mathematics?" 
+
+"Why, yes. I am," you answer. "Why do you ask?"
+
+### [VIDEO REVIEW: Introducing the Two-Envelope Paradox](https://www.youtube.com/watch?v=Pdw_KPW2pG8)
+
+"Since you like mathematics," says the man, "I'll give you special treatment. You've selected the envelope on the left, but I'll give you a chance to change your mind. Think about it for a moment," he adds with a smile, "it might be in your interests to switch."
+
+After considering the issue for a moment, you realize that the man in the white suit is right: it might be in your interests to switch. Here's why. You haven't opened your envelope yet, but you know it contains a certain amount of money: $\$k$, say. If $k$ is odd, it would definitely be in your interests to switch, for in that case the envelope on the right is sure to contain $\$2k$. (Recall that the man picked a natural number n at random, and put \$n$ in one of the envelopes and $\$2n$ in the other.)
+
+And if $k$ is an even number? In that case the envelope on the right must contain either $\$2k$ or $\$k/2$. We know, moreover, that these options have equal probability, since we know that the initial number n was selected at random.
+
+But if the probability that the envelope on the right contains $\$2k is the same as the probability that it contains $\$k/2$, then you should definitely switch. For if you do switch you are just as likely to end up with more money as you are to end up with less. But if you end up with more you'll end up with $\$k$ more, if you end up with less you'll end up with only $\$k/2$ less. (Think of it this way: switching is like betting on a coin toss: if it lands Heads you get $\$k$, if it lands Tails you lose $\$k/2$. You should definitely take that bet!)
+
+We can put this reasoning more formally, in terms of expected utility. If you switch, the probability that you get $\$k/2$ is $1/2$, and the probability you get $\$2k$ is $1/2$, so the expected utility of switching is
+
+$$\dfrac{\$k}{2} \times \dfrac{1}{2} + \$2k \times \dfrac{1}{2}$$
+$$= \dfrac{5}{4} \times \$k$$
+
+On the other hand, the expected value of staying is just $\$k$. So you should switch!
+
+Your situation is therefore as follows. If $k$ is uneven, it is definitely in your interests to switch, because the envelope on the right will contain twice the amount in the envelope you selected. And if $k$ is even, it's also in your interests to switch because switching is like betting on a coin toss where you'll win twice as much if the coin lands Heads as you'll lose if it lands Tails.
+
+"Alright!" you cry, "I'll switch!" With a trembling hand, you place your envelope back on the table, still unopened, and take the envelope on the right. 
+
+As you prepare to open it, the man in the white suit interrupts: "Excuse me, but are you sure you don't want to switch again? It might be in your interests to do so..."
+
+It is at that point that the problem dawns on you. The exact same reasoning that led you to switch the first time could be used to argue that you should switch again, and go back to your original selection. How is this possible?
+
+### [VIDEO REVIEW: Expected Utilities in the Two-Envelope Paradox](https://www.youtube.com/watch?v=yMG5U4jkrXQ)
+
+---
+
+## Countable Additivity
+
+We are before a paradox. We have an apparently valid argument telling us that you should switch *regardless of which of the envelopes you've selected*. And that can't be the right conclusion, since it would lead you to switch envelopes indefinitely.
+
+Where have we gone wrong? The first time I heard about the Two-Envelope Paradox, many years ago, I didn't think it was interesting. It seemed to me that the setup relied on a problematic assumption: the assumption that the man in the white suit is able to pick a natural number at random, and do so in such a way that different numbers always have the same probability of being selected.
+
+As I'm about to show you, there is no such thing as a method for selecting natural numbers which has that property: there is no such thing as a *uniform* probability distribution over the natural numbers.
+
+Here is one possible method for choosing natural numbers. Toss a coin until it lands Heads. If the coin lands Heads on the first toss, pick the number 1, if it lands Heads on the second toss, pick the number 2, and so forth. (If the coin never lands Heads, pick the number zero.)
+
+When one uses this method, the probability of choosing number 1 is 1/2, the probability of choosing number 2 is 1/4, and so forth. (In general, the probability of choosing *k is 1/(2^k)*, unless k is zero, in which case the probability of choosing k is zero.) 
+
+Such a method does not assign the same probability to each natural number. But it does have the important property that the probabilities assigned to each natural number add up to one (specifically: 1/2 + 1/4 + 1/8 + ...  = 1). This property is absolutely crucial. It is a special case of the Principle of Countable Additivity (which I introduced above). Without it we won't get a probability distribution with standard properties. 
+
+The easiest way to see that there can't be a method for choosing natural numbers that assigns the same probability to each natural number is by noticing that any such method would violate Countable Additivity. This is because we want the probability that the man chose some number or other to be 1. But if the probability of choosing a given natural number were zero, Countable Additivity would entail that the probability that some number or other was chosen is 0 + 0 + 0 . = 0, and if the probability of choosing a given natural number is $r>0$, Countable Additivity would entail that the probability that some number or other was chosen is  $r+r+r+ \ldots = \infty$.
+
+So this is what I thought when I first learned about the two-envelope paradox:
+
+> "The paradox presupposes a uniform probability distribution over the natural numbers. But there is no such distribution, because of Countable Additivity. So the 'paradox' isn't really a paradox. It is just a piece of reasoning that starts from an illegitimate premise."
+
+### [VIDEO REVIEW: Countable Additivity](https://www.youtube.com/watch?v=qsNf7trjl-w)
+
+---
+
+## Revenge of the Paradox
+
+I now believe I was mistaken to think that the paradox required assuming a uniform probability distribution across the natural numbers. As it turns out, there are non-uniform probability distributions which yield the result that switching envelopes always has a higher expected value than staying put.
+
+Here is an example, due to Oxford philosopher John Broome. Take a die, and toss it until it lands on a One or a Two. If it lands on a One or a Two on the first toss, we select the number 1; if it lands on a One or a Two on the second toss, we select the number 2; and so forth. In general, if the die lands on a One or a Two on the kth toss, we choose the number $2^{k-1}$.
+
+Suppose the man in the white suit uses this method to select the initial number n. Then one can prove that the expected value of switching is always greater than the expected value of staying put.
+
+(The proof is straightforward: I encourage you to try it out yourself. You can also have a look at Broome's article, which I've listed in this week's Further Resources section.)
+
+### The Upshot
+
+We have not avoided the problem after all.
+
+I am myself deeply puzzled by the Two Envelope Paradox. What do you make of it? Can you think of a way out of the problem?
+
+### Exercises
+
+**1. Suppose the man in the white suit uses the dice method above for choosing n. And suppose you pick an envelope, and find $\$2k$ inside.**
+
+What is the expected value of switching (in terms of k)?
+
+Pick an envelope, and assume that it contains \(\$2k\). (Since you should definitely switch if the envelope contains \(\$2^0=1\), we may assume that \(k>0\).)
+
+There are two possible states of the world that are compatible with what we know:
+
+(A) The die landed One or Two on the \((k+1)\)th toss. So your envelope contains \(\$2^k\), and the other contains \(\$2^{k+1}\).
+(B) The die landed One or Two on the \(k\)th toss. So your envelope contains \(\$2^k\), and the other contains \(\$2^{k-1}\).
+Here are the probabilities that each of these states obtains:
+
+\[p(A) = \frac{2^k}{3^k}\times\frac{1}{3}=\frac{2^k}{3^{k+1}}\]
+
+\[p(B) = \frac{2^{k-1}}{3^{k-1}}\times\frac{1}{3}=\frac{2^{k-1}}{3^k}\]
+
+The probabilities we'll need for calculating the expected utilities are not these, though. What we need is the probability of A given that either A or B obtains, and the probability of B given that either A or B obtains:
+
+\[p(A\vee B) = \frac{2^k}{3^{k+1}}+\frac{2^{k-1}}{3^k}=\frac{2^k}{3^{k+1}}+\frac{3\times 2^{k-1}}{3^{k+1}}=\frac{2^{k-1}\times(2+3)}{3^{k+1}}=\frac{2^{k-1}\times 5}{3^{k+1}}\]
+
+\[p(A|A\vee B) = \frac{\frac{2^k}{3^{k+1}}}{\frac{2^{k-1}\times 5}{3^{k+1}}}=\frac{2^k\times 3^{k+1}}{3^{k+1}\times 2^{k-1}\times 5}=\frac{2}{5}\]
+
+\[p(B|A\vee B) = \frac{\frac{2^{k-1}}{3^k}}{\frac{2^{k-1}\times 5}{3^{k+1}}}=\frac{2^k\times 3^{k+1}}{3^k\times 2^{k-1}\times 5}=\frac{3}{5}\]
+
+Now we can calculate the expected value of switching:
+
+\[EV(\text{switch})=v(A\wedge\text{switch})\times p(A|\text{switch}) + v(B\wedge\text{switch})\times p(B|\text{switch})\]
+
+\[=2^{k+1}\times\frac{2}{5} + 2^{k-1}\times\frac{3}{5}\]
+
+\[=\frac{2^{k+2}+2^{k-1}\times 3}{5}\]
+
+\[=\frac{2^{k-1}(2^3+3)}{5}\]
+
+\[=\frac{2^{k-1}\times 11}{5}\]
+
+\[=2^{k-1}(2+\frac{1}{5})\]
+
+\[=2^k+\frac{2^{k-1}}{5}\]
+
+So the expected value of switching is always greater than the expected value of not switching.
+
+### [VIDEO REVIEW: Revenge of the Paradox](https://www.youtube.com/watch?v=fYE-P39sPpA)
+
+---
+
+# 7. Further Resources
+
+- An earlier version of the text on probability was published in Spanish as Rayo, A. '?Qu? es la probabilidad? O de cu?nta informaci?n podemos extraer al cuantificar nuestra ignorancia', [Investigaci?n y Ciencia](http://www.investigacionyciencia.es/), June 2011. 
+- An earlier version of the text on the Two Envelope paradox was published in Spanish as Rayo, A. 'La paradoja de los dos sobres: un misterio probabil?stico', [Investigaci?n y Ciencia](http://www.investigacionyciencia.es/), June 2012.
+- I recommend the articles in volume 2 of David Lewis's [Philosophical Papers](http://www.amazon.com/Philosophical-Papers-David-K-Lewis/dp/0195036468/ref=sr_1_1?s=books&ie=UTF8&qid=1425237314&sr=1-1&keywords=Philosophical+Papers+Volume+II). Oxford University Press, 1987.
+- The cube factory example comes from Bas van Fraassen's [Laws and Symmetry](http://www.amazon.com/Laws-Symmetry-Clarendon-Paperbacks-Fraassen/dp/0198248601), Oxford University Press, 1989.
+- The taxonomy of theories of objective probability used in the 'Other Theories' subsection comes from Timothy Maudlin's '[Three Roads to Objective Probability](http://www.oxfordscholarship.com/view/10.1093/acprof:oso/9780199577439.001.0001/acprof-9780199577439-chapter-11)', which is highly recommended.
+- I convinced myself that the two-envelope paradox is not as easy as it looks reading the following article, by John Broome: 'The Two-Envelope Paradox' Analysis, Vol. 55, No. 1 (Jan., 1995), pp. 6-11.
+- For full versions of this week's lectures, see the next units in this subsection.
+
+---
+
+## [VIDEO: Lecture 6 in Full](https://www.youtube.com/watch?v=gfOw6za8qps)
+
+---
+
+## [VIDEO: Lecture 7 in Full](https://www.youtube.com/watch?v=dLl4Ex2z-HE)
+
+---
+
+\break
+
+# 8. Bonus Section: Meet the Expert
+
+## Susanna Rinard
+
+[Susanna Rinard](http://scholar.harvard.edu/susannarinard) is an assistant professor of philosophy at Harvard University and an expert in formal epistemology (which is a branch of philosophy that studies notions like belief and knowledge using formal tools).
+
+I visited her in January 2013, when she worked at the University of Missouri, and we did a little skit about three fun puzzles to do with probability. Check it out below!
+
+(Susanna and I have done other fun stuff together; see [here](http://kcur.org/post/philosophy-mind-and-look-back-kc-currents) for an interview on public radio, and [here](http://www.reddit.com/r/IAmA/comments/39b7e1/we_are_philosophy_professors_agustin_rayo_mit_and/) for a reddit AMA.)
+
+### [VIDEO: Susanna Rinard](https://www.youtube.com/watch?v=8PyPv6ASz8I)
+
+---
+
+\break
+
+# Evaluation
+
+The exercises below will count towards your grade. **You have only one chance to answer these questions.** Take your time, and think carefully before answering.
+
+---
+
+**1. A fair die is tossed ten consecutive times. Consider:**
+
+- Outcome $A$: the ten tosses result in the sequence $\langle 6, 6, 6, 6, 6, 6, 6, 6, 6, 6 \rangle$ (in that order).
+
+- Outcome $B$: the ten tosses result in the sequence $\langle 6,1,1,6,1,6,1,6,1,1 \rangle$ (in that order).
+
+**Pick one:**
+
+- Outcome A is more probable than Outcome B.
+- Outcome B is more probable than Outcome A.
+    - They are equally probable. This is so because the outcome of each toss is independent of the outcome of the preceding tosses. So, the probability of Outcome $A$ is $(1/6)^{10}$, as is the probability of Outcome $B$.
+- Outcomes A and Outcome B are equally probable. 
+
+**You are dealt a hand of ten cards from a standard deck of 52 cards, half of which are red ($R$) and half of which are black ($B$). Consider:**
+
+- Outcome $X$: your hand was dealt to you in the sequence $\langle B,B,B,B,B,B,B,B,B,B \rangle$ (in that order).
+
+- Outcome $Y$: your hand was dealt to you in the sequence $\langle B,R,R,B,R,B,R,B,R,R \rangle$ (in that order).
+
+**Pick one:**
+
+- Outcome $X$ is more probable than Outcome $Y$.
+- Outcome $Y$ is more probable than Outcome $X$.
+    - Outcome $Y$ is more probable than Outcome $X$ because as more and more black cards are dealt, it becomes less and less probable that additional black cards will be dealt.
+    Here's the same point, put a little more precisely: of the ordered 10-tuples of cards that can be built from a standard pack of cards,
+    $$26 \times 25 \times 24 \times 23 \times 22 \times 21 \times 20 \times 19 \times 18 \times 17$$
+    of them correspond to Outcome $X$, and
+    $$26 \times 26 \times 25 \times 25 \times 24 \times 24 \times 23 \times 23 \times 22 \times 21$$
+    of them correspond to Outcome $Y$. Since the latter number is larger, Outcome $Y$ is more probable.
+- Outcome $X$ and Outcome $Y$ are equally probable.
+
+\hfill \break
+
+**2. Suppose that we live in a deterministic world, and that I am about to toss an ordinary coin. You have no more information about this coin toss than that. Assuming that the Objective-Subjective Connection holds, what is the objective probability that the toss will land heads?**
+
+- 0
+- 0.5
+- 1
+- either 0 or 1
+    - It is either 0 or 1. For the coin will either land heads or it won't. If it will, then, since we live in a deterministic world, a perfectly rational agent with access to full information about the initial conditions, should be able to figure out that the coin will land heads. So she would assign a subjective probability of 1 to the proposition that the coin lands heads. By the Objective-Subjective connection, the current objective probability that the coin will land heads is 1. If the coin won't land heads, a similar reasoning shows that the current objective probability that the coin will land heads is 0.
+    
+**What *subjective* probability should you assign to the the proposition that the toss will land heads?**
+
+- 0
+- 0.5
+    - Orindary coins land heads about half the time, when tossed. This is all the information you have to go on, in the above scenario, when deciding your subjective probability that the coin will land heads. So you should assign it subjective probability .5.
+- 1
+- either 0 or 1
+
+\hfill \break
+
+**3. You are standing in front of The Small Number Machine, which is about to pick a positive real number smaller than 0.5. You have no more reason for thinking that it will pick one positive real number smaller than 0.5 than you have for thinking that it will pick any other. If the Principle of Indifference is correct, what credence should you assign to the possibility that the number it will pick is 0.25?**
+
+**(Assume that your credence function is a probability function, and remember that a credence is always a real number between 0 and 1.)**
+
+This question is very similiar to the one in exericise in section 3.2.2.
+
+If your credence function is a probability function, the Principle of Indifference can be used to argue that your credence must be $0$. Here's how.
+
+We'll derive a contradiction by supposing that you assign some positive real number n to the possibility that the machine picks $.25$. No matter how small $n$ is, we can always find an $m$, such that $n * m>1$. Pick some such $m$. There are infinitely many real numbers smaller than $.5$, so there are $m$ many real numbers smaller than $.5$ (plus a lot more!).
+
+Now note that since you have no more reason for thinking the machine will pick $.25$ than you have for thinking that the machine will pick any other positive real number smaller than $.5$, the Principle of Indifference tells you that you must assign the same credence to the proposition that the machine will pick $.5$ and the proposition that the machine will pick $x$, for any positive real $x$ number smaller than $.5$.
+
+It follows from the assumption that your credence function is a probability function that, for any positive real numbers $x_1,x_2,\ldots,x_m$ smaller than .5, your credence in "the machine will pick $x_1$ or $x_2$ or $\ldots$ or $x_m$" equals your credence in "the machine will pick $x_1$" plus your credence in "the machine will pick $x_2$" plus your credence in "the machine will pick $x_m$". We've assumed, though, that you assign credence n to the "the machine will pick $.25$", so you also assign credence $n$ to each of "the machine will pick $x_1$," "the machine will pick $x_2$,"."the machine will pick $x_m$". We know that $n*m>1$, though, so your credence in "the machine will pick $x_1$ or $x_2$ or . or $x_m$" is greater than $1$. But! Your credence function is a probability function, so no credence can be greater than $1$. Contradiction.
+
+\hfill \break
+
+**4. Suppose you're about to be dealt a two-card hand from a standard deck of cards (which consists of 52 cards, four of which are aces). The cards are picked totally at random. What is the probability that your hand will contain at least one ace? (Represent your answer as a fraction of whole numbers. Do not use a dollar sign.)**
+
+**(If you haven't tried to tackle this kind of problem before, you might find online resources such as [this one](http://www.wikihow.com/Calculate-Probability) helpful.)**
+
+The number of ordered pairs of cards that can be built from a standard pack of cards is $52 \times 51=2652$. Since we have no more reason to think that one of these outcomes will occur than we have for thinking that any other will occur, the probability that any one of the will occur is $1/2652$.
+
+Of our ordered pairs, $4 \times 3$ pairs contain two aces, $4 \times 48$ have an ace only in their first position, and $48 \times 4$ have an ace only in their second position. So the total number of pairs with at least one ace is
+
+$$(4 \times 3)+(4 \times 48)+(48 \times 4)=396$$
+
+Since each of them has a probability of $1/2652$ of occurring, the probability of being dealt a pair with at least one ace is $396/2652$.
+
+\hfill \break
+
+**5. Again, you're about to be dealt a two-card hand from a standard deck of cards (13 out of 52 of which are diamonds). And again, the cards are picked totally at random.**
+
+**This time, you're offered a bet. If your hand contains at least one diamond, you get $100. If it doesn't, you lose $10. What is the expected dollar amount of taking the bet? (Represent your answer as a fraction of whole numbers. Do not use a dollar sign.)**
+
+We first need to calculate the probability that you'll be dealt a hand with at least one diamond. As we saw in the previous problem, the probability that you'll be dealt any given two-card hand (i.e., ordered pair) is $1/2652$.
+
+Of our ordered pairs, $13 \times 12$ pairs contain two diamonds, $13 \times 39$ have a diamond only in their first position, and $39 \times 13$ have a diamond only in their second position. So the total number of pairs with at least one diamond is
+
+$$(13 \times 12)+(13 \times 39)+(39 \times 13)=1170$$
+
+Since each of them has a probability of $1/2652$ of occurring, the probability of being dealt a pair with at least one diamond is $1170/2652$. We can now perform the expected value calulation
+
+$$
+\begin{aligned}
+EV(Bet) &=(\$100 \times 1170/2652)+(-\$10?1482/2652) \\
+EV(Bet)&=\$117000/2652 - \$14820/2652 \\
+EV(Bet)&=\$102180/2652 \\ 
+\end{aligned}
+$$
+
+\hfill \break
+
+**6. You are offered a chance to play a game that works as follows. A coin will be tossed ten times. If all ten tosses are Tails, you get $100,000. If it is not the case that all ten tosses are Tails, we look at the first toss that lands Heads. If the coin first lands Heads on the nth toss, you get $\$2^n$.**
+
+**What is the expected dollar value of playing this game? (Round your answer up to the nearest whole dollar amount, and do not use a dollar sign in your answer. For example, if your answer is '$4.7', enter '5'.)**
+
+The expected value calculation goes like this:
+
+$$
+\begin{aligned}
+EV(Bet) &= (\sum_{n = 1}^{10} (1/2)^{n} \times \$2^n) + ((1/2)^{10} \times \$100,000) \\
+EV(Bet) &= \$10 + \$97.65625 \\
+EV(Bet)&= \$108 \\ 
+\end{aligned}
+$$
